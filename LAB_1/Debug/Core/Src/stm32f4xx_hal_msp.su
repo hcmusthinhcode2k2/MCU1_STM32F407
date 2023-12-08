@@ -1,0 +1,6 @@
+alue>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.RegisterKey" moduleName="ADC1" registerAlias="ADCMP3ENH"/>
+         <value>0</value>
+      </entry>

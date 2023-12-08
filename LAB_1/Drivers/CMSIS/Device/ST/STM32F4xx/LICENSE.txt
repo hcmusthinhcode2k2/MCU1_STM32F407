@@ -1,0 +1,19 @@
+/**
+ * This file is part of the mingw-w64 runtime package.
+ * No warranty is given; refer to the file DISCLAIMER within this package.
+ */
+#ifndef _BDATYPES_
+#define _BDATYPES_ 1
+
+#include <winapifamily.h>
+
+#if WINAPI_FAMILY_PARTITION (WINAPI_PARTITION_DESKTOP)
+
+#define BDA_PLP_ID_NOT_SET -1
+
+#define MIN_DIMENSION 1
+
+typedef LONG PBDARESULT;
+
+typedef enum BDA_EVENT_ID {
+  BDA

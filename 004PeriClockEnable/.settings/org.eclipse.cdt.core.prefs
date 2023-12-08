@@ -1,0 +1,5 @@
+enManager.OptionKey" moduleName="ADC1" registerAlias="ADFL1CON" settingAlias="FLCHSEL" alias="AN3"/>
+         <value>3</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleNa

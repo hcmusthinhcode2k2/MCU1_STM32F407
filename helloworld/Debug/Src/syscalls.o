@@ -1,0 +1,1691 @@
+ rasterization options.
+            </summary>
+      <value>
+            The vector rasterization options.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.ImageOptionsBase.MultiPageOptions">
+      <summary>
+            The multipage options
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.ImageOptions.PdfOptions.PdfDocumentInfo">
+      <summary>
+            Gets or sets metadata for document.
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.ImageOptions.PdfOptions.PdfCoreOptions">
+      <summary>
+            The PDF core options
+            </summary>
+    </member>
+    <member name="T:Aspose.Imaging.ImageOptions.RdOptimizerSettings">
+      <summary>
+            RD optimizer settings class
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.ImageOptions.RdOptimizerSettings.Create">
+      <summary>
+            Creates this instance.
+            </summary>
+      <returns>returns RDOptimizerSettings class instance</returns>
+    </member>
+    <member name="P:Aspose.Imaging.ImageOptions.RdOptimizerSettings.BppScale">
+      <summary>
+            Gets or sets the BPP (bits per pixel) scale factor.
+            </summary>
+      <value>
+            The BPP scale.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.ImageOptions.RdOptimizerSettings.BppMax">
+      <summary>
+            Gets or sets the maximum R value for consideration in  in bits per pixel
+            </summary>
+      <value>
+            The maximum R value for consideration in bits per pixel.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.ImageOptions.RdOptimizerSettings.MaxQ">
+      <summary>
+            Gets or sets the maximum quantization value.
+            </summary>
+      <value>
+            The maximum quantization value.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.ImageOptions.RdOptimizerSettings.MinQ">
+      <summary>
+            Gets the minimum allowed quantization value.
+            </summary>
+      <value>
+            The minimum minimum allowed quantization value.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.ImageOptions.RdOptimizerSettings.MaxPixelValue">
+      <summary>
+            Gets the maximum pixel value.
+            </summary>
+      <value>
+            The maximum maximum pixel value.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.ImageOptions.RdOptimizerSettings.PsnrMax">
+      <summary>
+            Gets the PSNR maximum expected value.
+            </summary>
+      <value>
+            The maximum maximum pixel value.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.ImageOptions.RdOptimizerSettings.DiscretizedBppMax">
+      <summary>
+            Gets the maximum R value for consideration.
+            </summary>
+      <value>
+            The maximum R value for consideration.
+            </value>
+    </member>
+    <member name="T:Aspose.Imaging.ImageOptions.RenderErrorCode">
+      <summary>
+            Represents possible missing sections in CAD file
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.ImageOptions.RenderErrorCode.MissingHeader">
+      <summary>
+            Header is missing
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.ImageOptions.RenderErrorCode.MissingLayouts">
+      <summary>
+            Layouts information is missing
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.ImageOptions.RenderErrorCode.MissingBlocks">
+      <summary>
+            Block information is missing
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.ImageOptions.RenderErrorCode.MissingDimensionStyles">
+      <summary>
+            Dimension styles information is missing
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.ImageOptions.RenderErrorCode.MissingStyles">
+      <summary>
+            Styles information is missing
+            </summary>
+    </member>
+    <member name="T:Aspose.Imaging.ImageOptions.RenderResult">
+      <summary>
+            Represents information with results of rendering
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.ImageOptions.RenderResult.Message">
+      <summary>
+            Gets or sets string message
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.ImageOptions.RenderResult.RenderCode">
+      <summary>
+            Gets or sets code of error
+            </summary>
+    </member>
+    <member name="T:Aspose.Imaging.ImageOptions.TiffOptionsUtils">
+      <summary>
+            The tiff file format options utility class.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.ImageOptions.TiffOptionsUtils.GetValidTagsCount(Aspose.Imaging.FileFormats.Tiff.TiffDataType[])">
+      <summary>
+            Gets the valid tags count.
+            </summary>
+      <param name="tags">The tags to validate.</param>
+      <returns>The valid tags count.</returns>
+    </member>
+    <member name="T:Aspose.Imaging.ImageOptions.TypeOfEntities">
+      <summary>
+            Represents types of entities to render
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.ImageOptions.TypeOfEntities.Entities2D">
+      <summary>
+            Render 2D entities
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.ImageOptions.TypeOfEntities.Entities3D">
+      <summary>
+            Render 3D entities
+            </summary>
+    </member>
+    <member name="T:Aspose.Imaging.ImageOptions.VectorRasterizationOptions">
+      <summary>
+            The vector rasterization options.
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.ImageOptions.VectorRasterizationOptions.BorderX">
+      <summary>
+            Gets or sets the border X.
+            </summary>
+      <value>
+            The border X.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.ImageOptions.VectorRasterizationOptions.BorderY">
+      <summary>
+            Gets or sets the border Y.
+            </summary>
+      <value>
+            The border Y.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.ImageOptions.VectorRasterizationOptions.CenterDrawing">
+      <summary>
+            Gets or sets a value indicating whether center drawing.
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.ImageOptions.VectorRasterizationOptions.PageHeight">
+      <summary>
+            Gets or sets the page height.
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.ImageOptions.VectorRasterizationOptions.PageSize">
+      <summary>
+            Gets or sets the page size.
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.ImageOptions.VectorRasterizationOptions.PageWidth">
+      <summary>
+            Gets or sets the page width.
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.ImageOptions.VectorRasterizationOptions.BackgroundColor">
+      <summary>
+            Gets or sets a background color.
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.ImageOptions.VectorRasterizationOptions.DrawColor">
+      <summary>
+            Gets or sets a foreground color.
+            </summary>
+    </member>
+    <member name="T:Aspose.Imaging.IAdvancedBufferProcessor">
+      <summary>
+            The advanced buffer processor.
+            </summary>
+    </member>
+    <member name="T:Aspose.Imaging.IBufferProcessor">
+      <summary>
+            The buffer processor.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.IBufferProcessor.ProcessBuffer(System.Byte[],System.Int32)">
+      <summary>
+            Processes the buffer.
+            </summary>
+      <param name="buffer">The buffer to process.</param>
+      <param name="bufferLength">The buffer length to process.</param>
+    </member>
+    <member name="M:Aspose.Imaging.IAdvancedBufferProcessor.FinishRow">
+      <summary>
+            Finishes the row.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.IAdvancedBufferProcessor.FinishRows(System.Int32)">
+      <summary>
+            Finishes the rows.
+            </summary>
+      <param name="rowsCount">The rows count.</param>
+    </member>
+    <member name="T:Aspose.Imaging.IColorConverter">
+      <summary>
+            The color converter.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.IColorConverter.Convert(Aspose.Imaging.PixelDataFormat,System.Byte[],System.Int32,System.Int32,System.Int32,System.Int32,Aspose.Imaging.PixelDataFormat,System.Byte[],System.Int32)">
+      <summary>
+            Converts the passed data to the output format.
+            </summary>
+      <param name="sourceFormat">The source format.</param>
+      <param name="data">The source data.</param>
+      <param name="offset">The offset in bytes where data copying should begin.</param>
+      <param name="bitStart">The bit start. Note this value is not byte aligned value instead this is actual bit where copying should begin.</param>
+      <param name="samplesCount">The samples count.</param>
+      <param name="linesCount">The lines count.</param>
+      <param name="destFormat">The destination format.</param>
+      <param name="outputData">The output data.</param>
+      <param name="outputOffset">The output offset where data copying should start.</param>
+      <returns>
+            The converted bytes count.
+            </returns>
+    </member>
+    <member name="T:Aspose.Imaging.IColorPalette">
+      <summary>
+            The color palette interface.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.IColorPalette.GetNearestColorIndex(System.Int32)">
+      <summary>
+            Gets the index of the nearest 32-bit ARGB color.
+            </summary>
+      <param name="argb32Color">The 32-bit ARGB color.</param>
+      <returns>The index of the nearest color.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.IColorPalette.GetNearestColorIndex(Aspose.Imaging.Color)">
+      <summary>
+            Gets the index of the nearest color.
+            </summary>
+      <param name="color">The color.</param>
+      <returns>The index of the nearest color.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.IColorPalette.GetArgb32Color(System.Int32)">
+      <summary>
+            Gets the 32-bit ARGB palette color by index.
+            </summary>
+      <param name="index">The 32-bit ARGB palette color index.</param>
+      <returns>The color palette entry specified by the <paramref name="index" />.</returns>
+      <exception cref="T:System.ArgumentOutOfRangeException"> if color palette <paramref name="index" /> specified is out of the palette entries range.</exception>
+    </member>
+    <member name="M:Aspose.Imaging.IColorPalette.GetColor(System.Int32)">
+      <summary>
+            Gets the palette color by index.
+            </summary>
+      <param name="index">The palette color index.</param>
+      <returns>The color palette entry specified by the <paramref name="index" />.</returns>
+      <exception cref="T:System.ArgumentOutOfRangeException"> if color palette <paramref name="index" /> specified is out of the palette entries range.</exception>
+    </member>
+    <member name="P:Aspose.Imaging.IColorPalette.EntriesCount">
+      <summary>
+            Gets the entries count.
+            </summary>
+      <value>The entries count.</value>
+    </member>
+    <member name="P:Aspose.Imaging.IColorPalette.Argb32Entries">
+      <summary>
+            Gets an array of 32-bit ARGB structures.
+            </summary>
+      <value>The 32-bit ARGB entries.</value>
+      <returns>
+            The array of 32-bit ARGB structure that make up this <see cref="T:Aspose.Imaging.ColorPalette" />.
+            </returns>
+    </member>
+    <member name="P:Aspose.Imaging.IColorPalette.Entries">
+      <summary>
+            Gets an array of <see cref="T:Aspose.Imaging.Color" /> structures.
+            </summary>
+      <value>The entries.</value>
+      <returns>
+            The array of <see cref="T:Aspose.Imaging.Color" /> structure that make up this <see cref="T:Aspose.Imaging.ColorPalette" />.
+            </returns>
+    </member>
+    <member name="P:Aspose.Imaging.IColorPalette.IsCompactPalette">
+      <summary>
+            Gets a value indicating whether compact palette is used.
+            </summary>
+      <value>
+        <c>true</c> if compact palette is used; otherwise, <c>false</c>.</value>
+      <remarks>Compact palette means that image will contain only the specified palette entries if possible or in other words the image will be more compact and occupy less space;
+            otherwise there will be 2^BitsPerPixel entries and image will reserve more space for all possible palette entries.
+            Setting this value to true and changing palette entries may cause performance penalty since data movement may occur so use it carefully.</remarks>
+    </member>
+    <member name="T:Aspose.Imaging.IKeyedObject">
+      <summary>
+            Represents interface for objects with keys.
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.IKeyedObject.Key">
+      <summary>
+            Gets the object key.
+            </summary>
+      <value>The object key.</value>
+    </member>
+    <member name="T:Aspose.Imaging.IImageCreator">
+      <summary>
+            The image creator.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.IImageCreator.Create(Aspose.Imaging.StreamContainer,Aspose.Imaging.ImageOptionsBase,System.Int32,System.Int32)">
+      <summary>
+            Creates a new image instance with <paramref name="imageOptions"></paramref>.
+            </summary>
+      <param name="streamContainer">The stream container to create image data in.</param>
+      <param name="imageOptions">The image options.</param>
+      <param name="width">width of new image</param>
+      <param name="height">height of new image</param>
+      <returns>
+            A new image instance.
+            </returns>
+    </member>
+    <member name="T:Aspose.Imaging.IImageCreatorDescriptor">
+      <summary>
+            The image creator descriptor specifying the creator properties. The creator descriptor is used to overcome
+            the necessity to contain each image creator instance in memory and multithreading issues.
+            </summary>
+    </member>
+    <member name="T:Aspose.Imaging.IImageDescriptor">
+      <summary>
+            The image descriptor. Contains base properties and methods for all other image descriptor types.
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.IImageDescriptor.SupportedFormat">
+      <summary>
+            Gets the supported format.
+            </summary>
+      <value>The supported format.</value>
+    </member>
+    <member name="M:Aspose.Imaging.IImageCreatorDescriptor.CanCreate(Aspose.Imaging.ImageOptionsBase)">
+      <summary>
+            Determines whether image creator can create a new image using the <paramref name="imageOptions" />.
+            </summary>
+      <param name="imageOptions">The image options.</param>
+      <returns>
+        <c>True</c> if image creator created by this descriptor can create image data using the specified <paramref name="imageOptions" />; otherwise, <c>false</c>.
+            </returns>
+    </member>
+    <member name="M:Aspose.Imaging.IImageCreatorDescriptor.CreateInstance">
+      <summary>
+            Creates a new creator instance.
+            </summary>
+      <returns>A new creator instance.</returns>
+    </member>
+    <member name="T:Aspose.Imaging.IImageExporter">
+      <summary>
+            The image exporter. Can export data from internal Aspose.Imaging format to a specified data format.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.IImageExporter.Export(Aspose.Imaging.Image,System.IO.Stream,Aspose.Imaging.ImageOptionsBase)">
+      <summary>
+            Exports the specified image data into specified data format.
+            </summary>
+      <param name="image">The image data to export.</param>
+      <param name="stream">The stream to export data to.</param>
+      <param name="optionsBase">Options for image export</param>
+    </member>
+    <member name="M:Aspose.Imaging.IImageExporter.Export(Aspose.Imaging.Image,System.IO.Stream,Aspose.Imaging.ImageOptionsBase,Aspose.Imaging.Rectangle)">
+      <summary>
+            Exports the specified image data into specified data format.
+            </summary>
+      <param name="image">The image data to export.</param>
+      <param name="stream">The stream to export data to.</param>
+      <param name="optionsBase">Options for image export</param>
+      <param name="boundsRectangle">The bounds rectangle.</param>
+    </member>
+    <member name="T:Aspose.Imaging.IImageExporterDescriptor">
+      <summary>
+            Represents the image exporter descriptor. The exporter descriptor is used to overcome the necessity to contain each exporter instance
+            in memory and multithreading issues.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.IImageExporterDescriptor.CanExport(Aspose.Imaging.Image,Aspose.Imaging.ImageOptionsBase)">
+      <summary>
+            Determines whether image exporter can export the specified image to the specified image format specified by save options.
+            </summary>
+      <param name="image">The image to export.</param>
+      <param name="optionsBase">The options base.</param>
+      <returns>
+        <c>True</c> if exporter created by this descriptor can export the specified image to the specified file format; otherwise, <c>false</c>.
+            </returns>
+    </member>
+    <member name="M:Aspose.Imaging.IImageExporterDescriptor.CreateInstance">
+      <summary>
+            Creates a new exporter instance.
+            </summary>
+      <returns>A new exporter instance.</returns>
+    </member>
+    <member name="T:Aspose.Imaging.IImageLoader">
+      <summary>
+            The image loader.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.IImageLoader.Load(Aspose.Imaging.StreamContainer,Aspose.Imaging.LoadOptions)">
+      <summary>
+            Opens a new image with <paramref name="loadOptions"></paramref>.
+            </summary>
+      <param name="streamContainer">The stream container.</param>
+      <param name="loadOptions">The load options.</param>
+      <returns>A newly opened image instance.</returns>
+    </member>
+    <member name="T:Aspose.Imaging.IImageLoaderDescriptor">
+      <summary>
+            The image loader descriptor specifying the loader properties. The loader descriptor is used to overcome
+            the necessity to contain each image loader instance in memory and multithreading issues.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.IImageLoaderDescriptor.CanLoad(Aspose.Imaging.StreamContainer,Aspose.Imaging.LoadOptions)">
+      <summary>
+            Determines whether image loader can read a new image from the specified stream and optionally using the <paramref name="loadOptions" />.
+            </summary>
+      <param name="streamContainer">The stream container.</param>
+      <param name="loadOptions">The file format details specified by <paramref name="loadOptions" />. The <paramref name="loadOptions" /> may be null.</param>
+      <returns>
+        <c>true</c> if image loader created by this descriptor can read image from stream; otherwise, <c>false</c>.
+            </returns>
+    </member>
+    <member name="M:Aspose.Imaging.IImageLoaderDescriptor.CreateInstance">
+      <summary>
+            Creates a new loader instance.
+            </summary>
+      <returns>A new loader instance.</returns>
+    </member>
+    <member name="T:Aspose.Imaging.IIndexedColorConverter">
+      <summary>
+            The color converter for indexed image formats.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.IIndexedColorConverter.FillIndexedtoIndexedMap(System.Byte[],Aspose.Imaging.PixelDataFormat,Aspose.Imaging.PixelDataFormat)">
+      <summary>
+            Fills the indexed to indexed image conversion map.
+            </summary>
+      <param name="map">The conversion map.</param>
+      <param name="sourceFormat">The source format.</param>
+      <param name="destFormat">The destination format.</param>
+    </member>
+    <member name="T:Aspose.Imaging.IOrderedShape">
+      <summary>
+            Represents an ordered shape. An ordered shape is a continuous set of points having a start point and end point.
+            The continuous set of points connected using a specific rule.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.IOrderedShape.Reverse">
+      <summary>
+            Reverses the order of points for this shape.
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.IOrderedShape.StartPoint">
+      <summary>
+            Gets the starting shape point.
+            </summary>
+      <value>The starting shape point.</value>
+    </member>
+    <member name="P:Aspose.Imaging.IOrderedShape.EndPoint">
+      <summary>
+            Gets the ending shape point.
+            </summary>
+      <value>The ending shape point.</value>
+    </member>
+    <member name="P:Aspose.Imaging.IOrderedShape.IsClosed">
+      <summary>
+            Gets or sets a value indicating whether ordered shape is closed. When processing closed ordered shape the starting and ending points have no meaning.
+            </summary>
+      <value>
+        <c>True</c> if this ordered shape is closed; otherwise, <c>false</c>.</value>
+    </member>
+    <member name="T:Aspose.Imaging.IPartialArgb64PixelLoader">
+      <summary>
+            The 64-bit ARGB pixels loader.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.IPartialArgb64PixelLoader.Process64(Aspose.Imaging.Rectangle,System.Int64[],Aspose.Imaging.Point,Aspose.Imaging.Point)">
+      <summary>
+            Processes the loaded pixels.
+            </summary>
+      <param name="pixelsRectangle">The pixels rectangle.</param>
+      <param name="pixels">The 64-bit ARGB pixels.</param>
+      <param name="start">The start pixels point. If not equal to (left,top) meaning that it is not full rectangle we have.</param>
+      <param name="end">The end pixels point. If not equal to (right,bottom) meaning that it is not full rectangle we have.</param>
+    </member>
+    <member name="T:Aspose.Imaging.IPartialPixelLoader">
+      <summary>
+            Conforms to the pixels loaded partially.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.IPartialPixelLoader.Process(Aspose.Imaging.Rectangle,Aspose.Imaging.Color[],Aspose.Imaging.Point,Aspose.Imaging.Point)">
+      <summary>
+            Processes the loaded pixels.
+            </summary>
+      <param name="pixelsRectangle">The pixels rectangle.</param>
+      <param name="pixels">The pixels.</param>
+      <param name="start">The start pixels point. If not equal to (left,top) meaning that it is not full rectangle we have.</param>
+      <param name="end">The end pixels point. If not equal to (right,bottom) meaning that it is not full rectangle we have.</param>
+    </member>
+    <member name="T:Aspose.Imaging.IPsdColorPalette">
+      <summary>
+            The pasd color palette
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.IPsdColorPalette.TransparentIndex">
+      <summary>
+            Gets the index of the transparent color.
+            </summary>
+      <value>The index of the transparent color.</value>
+    </member>
+    <member name="P:Aspose.Imaging.IPsdColorPalette.HasTransparentColor">
+      <summary>
+            Gets a value indicating whether transparent color exists.
+            </summary>
+      <value>
+        <c>true</c> if transparent color exists; otherwise, <c>false</c>.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.IPsdColorPalette.TransparentColor">
+      <summary>
+            Gets the transparent color.
+            </summary>
+      <value>The transparent color.</value>
+    </member>
+    <member name="P:Aspose.Imaging.IPsdColorPalette.RawEntries">
+      <summary>
+            Gets the raw color palette entries data.
+            </summary>
+      <value>The raw color palette entries data.</value>
+    </member>
+    <member name="P:Aspose.Imaging.IPsdColorPalette.RawEntriesCount">
+      <summary>
+            Gets the raw color palette entries count.
+            </summary>
+      <value>The raw color palette entries count.</value>
+    </member>
+    <member name="T:Aspose.Imaging.IRasterImagePixelLoader">
+      <summary>
+            The raster image pixel loader.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.IRasterImagePixelLoader.LoadPartialPixels(Aspose.Imaging.Rectangle,Aspose.Imaging.IPartialPixelLoader)">
+      <summary>
+            Loads pixels partially (by blocks).
+            </summary>
+      <param name="rectangle">The rectangle to load pixels from.</param>
+      <param name="partialPixelLoader">The partial pixel loader.</param>
+    </member>
+    <member name="T:Aspose.Imaging.IntRange">
+      <summary>
+            Class for representing sequence of elements
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.IntRange.#ctor(System.Int32,System.Int32)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.IntRange" /> class.
+            </summary>
+      <param name="start">The start.</param>
+      <param name="count">The count.</param>
+    </member>
+    <member name="M:Aspose.Imaging.IntRange.#ctor(System.Int32,System.Int32,System.Int32)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.IntRange" /> class.
+            </summary>
+      <param name="start">The start.</param>
+      <param name="count">The count.</param>
+      <param name="delta">The delta.</param>
+    </member>
+    <member name="M:Aspose.Imaging.IntRange.#ctor(System.Int32[])">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.IntRange" /> class.
+            </summary>
+      <param name="range">The range.</param>
+    </member>
+    <member name="M:Aspose.Imaging.IntRange.GetArrayOneItemFromIndex(System.Int32)">
+      <summary>
+            Returns one item array from specified index
+            </summary>
+      <param name="index">The range index.</param>
+      <returns>The array of <see cref="T:System.Int32" /></returns>
+      <exception cref="T:System.IndexOutOfRangeException">Index is out of range</exception>
+    </member>
+    <member name="M:Aspose.Imaging.IntRange.GetRange(System.Int32,System.Int32,System.Int32)">
+      <summary>
+            Gets the count range of int elements starting at start
+            </summary>
+      <param name="start">The start.</param>
+      <param name="count">The count.</param>
+      <param name="delta">The delta.</param>
+      <returns>Array of items</returns>
+      <exception cref="T:System.ArgumentException">Count can not be lover than 1
+            or
+            {D255958A-8513-4226-94B9-080D98F904A1}Start page can not be lover than 0</exception>
+    </member>
+    <member name="P:Aspose.Imaging.IntRange.Range">
+      <summary>
+            Gets or sets the range.
+            </summary>
+      <value>
+            The range.
+            </value>
+    </member>
+    <member name="T:Aspose.Imaging.ImageFilterType">
+      <summary>
+            Image filters to use
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.ImageFilterType.None">
+      <summary>
+            Nothing filter used
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.ImageFilterType.BigRectangular">
+      <summary>
+            The big rectangular filter 
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.ImageFilterType.SmallRectangular">
+      <summary>
+            The small rectangular filter 
+            </summary>
+    </member>
+    <member name="T:Aspose.Imaging.ImageResizeSettings">
+      <summary>
+            Image resize settings class
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.ImageResizeSettings.EntriesCount">
+      <summary>
+            Gets or sets the entries count
+            </summary>
+      <value>
+            The entries count
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.ImageResizeSettings.Mode">
+      <summary>
+            Gets or sets the interpolation mode.
+            </summary>
+      <value>
+            The mode.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.ImageResizeSettings.FilterType">
+      <summary>
+            Gets or sets the type of the filter.
+            </summary>
+      <value>
+            The type of the filter.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.ImageResizeSettings.ColorQuantizationMethod">
+      <summary>
+            Gets or sets the color quantization method.
+            </summary>
+      <value>
+            The color quantization method.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.ImageResizeSettings.ColorCompareMethod">
+      <summary>
+            Gets or sets the color compare method.
+            </summary>
+      <value>
+            The color compare method.
+            </value>
+    </member>
+    <member name="T:Aspose.Imaging.Multithreading.InterruptMonitor">
+      <summary>
+            Represents information about interruption.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.Multithreading.InterruptMonitor.Interrupt">
+      <summary>
+            Sends a request to interrupt operations.
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.Multithreading.InterruptMonitor.ThreadLocalInstance">
+      <summary>
+            Gets or sets the InterruptMonitor instance which is unique for each thread.
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.Multithreading.InterruptMonitor.IsInterrupted">
+      <summary>
+            Gets the value indicating whether operations should be interrupted.
+            </summary>
+    </member>
+    <member name="T:Aspose.Imaging.Multithreading.NamespaceDoc">
+      <summary>
+            The namespace contains Multithreading classes.
+            </summary>
+    </member>
+    <member name="T:Aspose.Imaging.NonGenericDictionary">
+      <summary>
+            Represents a non generic dictionary.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.NonGenericDictionary.Dictionary">
+      <summary>
+            The actual dictionary used.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.NonGenericDictionary.#ctor(System.Collections.IDictionary)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.NonGenericDictionary" /> class.
+            </summary>
+      <param name="dictionary">The dictionary to use.</param>
+    </member>
+    <member name="M:Aspose.Imaging.NonGenericDictionary.Remove(System.Object)">
+      <summary>
+            Removes the element with the specified key from the 
+            <see cref="T:System.Collections.IDictionary" /> object.
+            </summary>
+      <param name="key">The key of the element to remove.</param>
+    </member>
+    <member name="M:Aspose.Imaging.NonGenericDictionary.CopyTo(System.Array,System.Int32)">
+      <summary>
+            Copies the elements of the 
+            <see cref="T:System.Collections.ICollection" /> to an 
+            <see cref="T:System.Array" />, starting at a particular 
+            <see cref="T:System.Array" /> index.
+            </summary>
+      <param name="array">The one-dimensional 
+            <see cref="T:System.Array" /> that is the destination of the elements copied from 
+            <see cref="T:System.Collections.ICollection" />. The 
+            <see cref="T:System.Array" /> must have zero-based indexing.</param>
+      <param name="index">The zero-based index in 
+            <paramref name="array" /> at which copying begins.</param>
+    </member>
+    <member name="M:Aspose.Imaging.NonGenericDictionary.Add(System.Object,System.Object)">
+      <summary>
+            Adds an element with the provided key and value to the 
+            <see cref="T:System.Collections.IDictionary" /> object.
+            </summary>
+      <param name="key">The 
+            <see cref="T:System.Object" /> to use as the key of the element to add.</param>
+      <param name="value">The 
+            <see cref="T:System.Object" /> to use as the value of the element to add.</param>
+    </member>
+    <member name="M:Aspose.Imaging.NonGenericDictionary.Clear">
+      <summary>
+            Removes all elements from the 
+            <see cref="T:System.Collections.IDictionary" /> object.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.NonGenericDictionary.Contains(System.Object)">
+      <summary>
+            Determines whether the 
+            <see cref="T:System.Collections.IDictionary" /> object contains an element with the specified key.
+            </summary>
+      <param name="key">The key to locate in the 
+            <see cref="T:System.Collections.IDictionary" /> object.</param>
+      <returns>
+            true if the 
+            <see cref="T:System.Collections.IDictionary" /> contains an element with the key; otherwise, false.
+            </returns>
+    </member>
+    <member name="M:Aspose.Imaging.NonGenericDictionary.GetEnumerator">
+      <summary>
+            Gets the enumerator.
+            </summary>
+      <returns>The dictionary enumerator</returns>
+    </member>
+    <member name="P:Aspose.Imaging.NonGenericDictionary.IsFixedSize">
+      <summary>
+            Gets a value indicating whether the 
+            <see cref="T:System.Collections.IDictionary" /> object has a fixed size.
+            </summary>
+      <returns>true if the <see cref="T:System.Collections.IDictionary" /> object has a fixed size; otherwise, false.</returns>
+    </member>
+    <member name="P:Aspose.Imaging.NonGenericDictionary.IsReadOnly">
+      <summary>
+            Gets a value indicating whether the 
+            <see cref="T:System.Collections.IDictionary" /> object is read-only.
+            </summary>
+      <returns>true if the <see cref="T:System.Collections.IDictionary" /> object is read-only; otherwise, false.</returns>
+    </member>
+    <member name="P:Aspose.Imaging.NonGenericDictionary.Keys">
+      <summary>
+            Gets an 
+            <see cref="T:System.Collections.ICollection" /> object containing the keys of the 
+            <see cref="T:System.Collections.IDictionary" /> object.
+            </summary>
+      <returns>An <see cref="T:System.Collections.ICollection" /> object containing the keys of the <see cref="T:System.Collections.IDictionary" /> object.</returns>
+    </member>
+    <member name="P:Aspose.Imaging.NonGenericDictionary.Count">
+      <summary>
+            Gets the number of elements contained in the 
+            <see cref="T:System.Collections.ICollection" />.
+            </summary>
+      <returns>The number of elements contained in the <see cref="T:System.Collections.ICollection" />.</returns>
+    </member>
+    <member name="P:Aspose.Imaging.NonGenericDictionary.IsSynchronized">
+      <summary>
+            Gets a value indicating whether access to the 
+            <see cref="T:System.Collections.ICollection" /> is synchronized (thread safe).
+            </summary>
+      <returns>true if access to the <see cref="T:System.Collections.ICollection" /> is synchronized (thread safe); otherwise, false.</returns>
+    </member>
+    <member name="P:Aspose.Imaging.NonGenericDictionary.SyncRoot">
+      <summary>
+            Gets an object that can be used to synchronize access to the 
+            <see cref="T:System.Collections.ICollection" />.
+            </summary>
+      <returns>An object that can be used to synchronize access to the <see cref="T:System.Collections.ICollection" />.</returns>
+    </member>
+    <member name="P:Aspose.Imaging.NonGenericDictionary.Values">
+      <summary>
+            Gets an 
+            <see cref="T:System.Collections.ICollection" /> object containing the values in the 
+            <see cref="T:System.Collections.IDictionary" /> object.
+            </summary>
+      <returns>An <see cref="T:System.Collections.ICollection" /> object containing the values in the <see cref="T:System.Collections.IDictionary" /> object.</returns>
+    </member>
+    <member name="P:Aspose.Imaging.NonGenericDictionary.Item(System.Object)">
+      <summary>
+            Gets or sets the element with the specified key.
+            </summary>
+      <param name="key">The element key.</param>
+      <returns>The element with the specified key.</returns>
+    </member>
+    <member name="T:Aspose.Imaging.NonGenericList">
+      <summary>
+            Non generic list of objects 
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.NonGenericList.list">
+      <summary>
+            The list - internal container of objects
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.NonGenericList.#ctor(System.Collections.IList)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.NonGenericList" /> class.
+            </summary>
+      <param name="list">The list - container of objects.</param>
+    </member>
+    <member name="M:Aspose.Imaging.NonGenericList.Add(System.Object)">
+      <summary>
+            Adds an item to the <see cref="T:System.Collections.IList" />.
+            </summary>
+      <param name="value">The <see cref="T:System.Object" /> to add to the <see cref="T:System.Collections.IList" />.</param>
+      <returns>
+            The position into which the new element was inserted.
+            </returns>
+    </member>
+    <member name="M:Aspose.Imaging.NonGenericList.Clear">
+      <summary>
+            Removes all items from the <see cref="T:System.Collections.IList" />.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.NonGenericList.Contains(System.Object)">
+      <summary>
+            Determines whether the <see cref="T:System.Collections.IList" /> contains a specific value.
+            </summary>
+      <param name="value">The <see cref="T:System.Object" /> to locate in the <see cref="T:System.Collections.IList" />.</param>
+      <returns>
+            true if the <see cref="T:System.Object" /> is found in the <see cref="T:System.Collections.IList" />; otherwise, false.
+            </returns>
+    </member>
+    <member name="M:Aspose.Imaging.NonGenericList.IndexOf(System.Object)">
+      <summary>
+            Determines the index of a specific item in the <see cref="T:System.Collections.IList" />.
+            </summary>
+      <param name="value">The <see cref="T:System.Object" /> to locate in the <see cref="T:System.Collections.IList" />.</param>
+      <returns>
+            The index of <paramref name="value" /> if found in the list; otherwise, -1.
+            </returns>
+    </member>
+    <member name="M:Aspose.Imaging.NonGenericList.Insert(System.Int32,System.Object)">
+      <summary>
+            Inserts an item to the <see cref="T:System.Collections.IList" /> at the specified index.
+            </summary>
+      <param name="index">The zero-based index at which <paramref name="value" /> should be inserted.</param>
+      <param name="value">The <see cref="T:System.Object" /> to insert into the <see cref="T:System.Collections.IList" />.</param>
+    </member>
+    <member name="M:Aspose.Imaging.NonGenericList.Remove(System.Object)">
+      <summary>
+            Removes the first occurrence of a specific object from the <see cref="T:System.Collections.IList" />.
+            </summary>
+      <param name="value">The <see cref="T:System.Object" /> to remove from the <see cref="T:System.Collections.IList" />.</param>
+    </member>
+    <member name="M:Aspose.Imaging.NonGenericList.RemoveAt(System.Int32)">
+      <summary>
+            Removes the <see cref="T:System.Collections.IList" /> item at the specified index.
+            </summary>
+      <param name="index">The zero-based index of the item to remove.</param>
+    </member>
+    <member name="M:Aspose.Imaging.NonGenericList.CopyTo(System.Array,System.Int32)">
+      <summary>
+            Copies the elements of the <see cref="T:System.Collections.ICollection" /> to an <see cref="T:System.Array" />, starting at a particular <see cref="T:System.Array" /> index.
+            </summary>
+      <param name="array">The one-dimensional <see cref="T:System.Array" /> that is the destination of the elements copied from <see cref="T:System.Collections.ICollection" />. The <see cref="T:System.Array" /> must have zero-based indexing.</param>
+      <param name="index">The zero-based index in <paramref name="array" /> at which copying begins.</param>
+    </member>
+    <member name="M:Aspose.Imaging.NonGenericList.GetEnumerator">
+      <summary>
+            Returns an enumerator that iterates through a collection.
+            </summary>
+      <returns>
+            An <see cref="T:System.Collections.IEnumerator" /> object that can be used to iterate through the collection.
+            </returns>
+    </member>
+    <member name="P:Aspose.Imaging.NonGenericList.IsFixedSize">
+      <summary>
+            Gets a value indicating whether the <see cref="T:System.Collections.IList" /> has a fixed size.
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.NonGenericList.IsReadOnly">
+      <summary>
+            Gets a value indicating whether the <see cref="T:System.Collections.IList" /> is read-only.
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.NonGenericList.Item(System.Int32)">
+      <summary>
+            Gets or sets the element at the specified index.
+            </summary>
+      <param name="index">The index.</param>
+      <returns>
+      </returns>
+    </member>
+    <member name="P:Aspose.Imaging.NonGenericList.Count">
+      <summary>
+            Gets the number of elements contained in the <see cref="T:System.Collections.ICollection" />.
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.NonGenericList.IsSynchronized">
+      <summary>
+            Gets a value indicating whether access to the <see cref="T:System.Collections.ICollection" /> is synchronized (thread safe).
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.NonGenericList.SyncRoot">
+      <summary>
+            Gets an object that can be used to synchronize access to the <see cref="T:System.Collections.ICollection" />.
+            </summary>
+    </member>
+    <member name="T:Aspose.Imaging.OpenTypeFontsCache">
+      <summary>
+            Cache for OpenType fonts that are installed in the system.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.OpenTypeFontsCache.UpdateCache">
+      <summary>
+        <inheritdoc cref="M:Aspose.Imaging.FontParsing.OpenType.Serialization.OpenTypeInfoCacheProcessor.UpdateFontsCache" />
+      </summary>
+    </member>
+    <member name="T:Aspose.Imaging.PaletteHelper.AdjustPalette">
+      <summary>
+            Color palette adjustment class
+            </summary>
+    </member>
+    <member name="T:Aspose.Imaging.PaletteHelper.NamespaceDoc">
+      <summary>
+            The namespace contains classes for adjustment of color palette to the image colors and visa versa.
+            </summary>
+    </member>
+    <member name="T:Aspose.Imaging.ColorMap">
+      <summary>
+            Defines a map for converting colors. Several methods of the <see cref="T:Aspose.Imaging.ImageAttributes" /> class adjust image colors by using a color-remap table, which is an array of <see cref="T:Aspose.Imaging.ColorMap" /> structures. Not inheritable.
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.ColorMap.OldColor">
+      <summary>
+            Gets or sets the existing <see cref="T:Aspose.Imaging.Color" /> structure to be converted.
+            </summary>
+      <value>The existing <see cref="T:Aspose.Imaging.Color" /> structure to be converted.</value>
+    </member>
+    <member name="P:Aspose.Imaging.ColorMap.NewColor">
+      <summary>
+            Gets or sets the new <see cref="T:Aspose.Imaging.Color" /> structure to which to convert.
+            </summary>
+      <value>The new <see cref="T:Aspose.Imaging.Color" /> structure to which to convert.</value>
+    </member>
+    <member name="T:Aspose.Imaging.ColorMatrix">
+      <summary>
+            Defines a 5 x 5 matrix that contains the coordinates for the RGBA space. Several methods of the <see cref="T:Aspose.Imaging.ImageAttributes" /> class adjust image colors by using a color matrix. This class cannot be inherited.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.ColorMatrix.MatrixDimensionElementsCount">
+      <summary>
+            The number of elements in matrix dimension.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.ColorMatrix.MatrixDimensionsCount">
+      <summary>
+            The number of matrix dimensions.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.ColorMatrix.MatrixTotalElementsCount">
+      <summary>
+            The total number of elements in the matrix.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.ColorMatrix.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.ColorMatrix" /> class.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.ColorMatrix.#ctor(System.Single[][])">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.ColorMatrix" /> class using the elements in the specified matrix <paramref name="newColorMatrix" />.
+            </summary>
+      <param name="newColorMatrix">The values of the elements for the new <see cref="T:Aspose.Imaging.ColorMatrix" />.</param>
+    </member>
+    <member name="M:Aspose.Imaging.ColorMatrix.GetMatrix">
+      <summary>
+            Gets the matrix values.
+            </summary>
+      <returns>The matrix values array.</returns>
+    </member>
+    <member name="P:Aspose.Imaging.ColorMatrix.Matrix00">
+      <summary>
+            Gets or sets the element at the 0 (zero) row and 0 column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.
+            </summary>
+      <value>The element at the 0 row and 0 column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.</value>
+    </member>
+    <member name="P:Aspose.Imaging.ColorMatrix.Matrix01">
+      <summary>
+            Gets or sets the element at the 0 (zero) row and first column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.
+            </summary>
+      <value>The element at the 0 row and first column of this <see cref="T:Aspose.Imaging.ColorMatrix" /> .</value>
+    </member>
+    <member name="P:Aspose.Imaging.ColorMatrix.Matrix02">
+      <summary>
+            Gets or sets the element at the 0 (zero) row and second column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.
+            </summary>
+      <value>The element at the 0 row and second column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.</value>
+    </member>
+    <member name="P:Aspose.Imaging.ColorMatrix.Matrix03">
+      <summary>
+            Gets or sets the element at the 0 (zero) row and third column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.
+            </summary>
+      <value>The element at the 0 row and third column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.</value>
+    </member>
+    <member name="P:Aspose.Imaging.ColorMatrix.Matrix04">
+      <summary>
+            Gets or sets the element at the 0 (zero) row and fourth column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.
+            </summary>
+      <value>The element at the 0 row and fourth column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.</value>
+    </member>
+    <member name="P:Aspose.Imaging.ColorMatrix.Matrix10">
+      <summary>
+            Gets or sets the element at the first row and 0 (zero) column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.
+            </summary>
+      <value>The element at the first row and 0 column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.</value>
+    </member>
+    <member name="P:Aspose.Imaging.ColorMatrix.Matrix11">
+      <summary>
+            Gets or sets the element at the first row and first column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.
+            </summary>
+      <value>The element at the first row and first column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.</value>
+    </member>
+    <member name="P:Aspose.Imaging.ColorMatrix.Matrix12">
+      <summary>
+            Gets or sets the element at the first row and second column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.
+            </summary>
+      <value>The element at the first row and second column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.</value>
+    </member>
+    <member name="P:Aspose.Imaging.ColorMatrix.Matrix13">
+      <summary>
+            Gets or sets the element at the first row and third column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.
+            </summary>
+      <value>The element at the first row and third column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.</value>
+    </member>
+    <member name="P:Aspose.Imaging.ColorMatrix.Matrix14">
+      <summary>
+            Gets or sets the element at the first row and fourth column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.
+            </summary>
+      <value>The element at the first row and fourth column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.</value>
+    </member>
+    <member name="P:Aspose.Imaging.ColorMatrix.Matrix20">
+      <summary>
+            Gets or sets the element at the second row and 0 (zero) column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.
+            </summary>
+      <value>The element at the second row and 0 column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.</value>
+    </member>
+    <member name="P:Aspose.Imaging.ColorMatrix.Matrix21">
+      <summary>
+            Gets or sets the element at the second row and first column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.
+            </summary>
+      <value>The element at the second row and first column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.</value>
+    </member>
+    <member name="P:Aspose.Imaging.ColorMatrix.Matrix22">
+      <summary>
+            Gets or sets the element at the second row and second column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.
+            </summary>
+      <value>The element at the second row and second column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.</value>
+    </member>
+    <member name="P:Aspose.Imaging.ColorMatrix.Matrix23">
+      <summary>
+            Gets or sets the element at the second row and third column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.
+            </summary>
+      <value>The element at the second row and third column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.</value>
+    </member>
+    <member name="P:Aspose.Imaging.ColorMatrix.Matrix24">
+      <summary>
+            Gets or sets the element at the second row and fourth column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.
+            </summary>
+      <value>The element at the second row and fourth column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.</value>
+    </member>
+    <member name="P:Aspose.Imaging.ColorMatrix.Matrix30">
+      <summary>
+            Gets or sets the element at the third row and 0 (zero) column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.
+            </summary>
+      <value>The element at the third row and 0 column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.</value>
+    </member>
+    <member name="P:Aspose.Imaging.ColorMatrix.Matrix31">
+      <summary>
+            Gets or sets the element at the third row and first column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.
+            </summary>
+      <value>The element at the third row and first column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.</value>
+    </member>
+    <member name="P:Aspose.Imaging.ColorMatrix.Matrix32">
+      <summary>
+            Gets or sets the element at the third row and second column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.
+            </summary>
+      <value>The element at the third row and second column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.</value>
+    </member>
+    <member name="P:Aspose.Imaging.ColorMatrix.Matrix33">
+      <summary>
+            Gets or sets the element at the third row and third column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.
+            </summary>
+      <value>The element at the third row and third column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.</value>
+    </member>
+    <member name="P:Aspose.Imaging.ColorMatrix.Matrix34">
+      <summary>
+            Gets or sets the element at the third row and fourth column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.
+            </summary>
+      <value>The element at the third row and fourth column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.</value>
+    </member>
+    <member name="P:Aspose.Imaging.ColorMatrix.Matrix40">
+      <summary>
+            Gets or sets the element at the fourth row and 0 (zero) column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.
+            </summary>
+      <value>The element at the fourth row and 0 column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.</value>
+    </member>
+    <member name="P:Aspose.Imaging.ColorMatrix.Matrix41">
+      <summary>
+            Gets or sets the element at the fourth row and first column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.
+            </summary>
+      <value>The element at the fourth row and first column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.</value>
+    </member>
+    <member name="P:Aspose.Imaging.ColorMatrix.Matrix42">
+      <summary>
+            Gets or sets the element at the fourth row and second column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.
+            </summary>
+      <value>The element at the fourth row and second column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.</value>
+    </member>
+    <member name="P:Aspose.Imaging.ColorMatrix.Matrix43">
+      <summary>
+            Gets or sets the element at the fourth row and third column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.
+            </summary>
+      <value>The element at the fourth row and third column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.</value>
+    </member>
+    <member name="P:Aspose.Imaging.ColorMatrix.Matrix44">
+      <summary>
+            Gets or sets the element at the fourth row and fourth column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.
+            </summary>
+      <value>The element at the fourth row and fourth column of this <see cref="T:Aspose.Imaging.ColorMatrix" />.</value>
+    </member>
+    <member name="P:Aspose.Imaging.ColorMatrix.Item(System.Int32,System.Int32)">
+      <summary>
+            Gets or sets the element at the specified row and column in the <see cref="T:Aspose.Imaging.ColorMatrix" />.
+            </summary>
+      <param name="row">The row number.</param>
+      <param name="column">The column number.</param>
+      <returns>The element at the specified row and column.</returns>
+    </member>
+    <member name="T:Aspose.Imaging.ColorMatrixFlag">
+      <summary>
+            Specifies the types of images and colors that will be affected by the color and grayscale adjustment settings of an <see cref="T:Aspose.Imaging.ImageAttributes" />.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.ColorMatrixFlag.Default">
+      <summary>
+            All color values, including gray shades, are adjusted by the same color-adjustment matrix.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.ColorMatrixFlag.SkipGrays">
+      <summary>
+            All colors are adjusted, but gray shades are not adjusted. A gray shade is any color that has the same value for its red, green, and blue components.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.ColorMatrixFlag.AltGrays">
+      <summary>
+            Only gray shades are adjusted.
+            </summary>
+    </member>
+    <member name="T:Aspose.Imaging.ColorPalette">
+      <summary>
+            Defines an array of colors that make up a color palette. The colors are 32-bit ARGB colors. Not inheritable.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.ColorPalette.#ctor(System.Int32[],System.Boolean)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.ColorPalette" /> class.
+            </summary>
+      <param name="argb32Entries">The 32-bit ARGB color palette entries.</param>
+      <param name="isCompactPalette">Indicating whether compact it palette.</param>
+    </member>
+    <member name="M:Aspose.Imaging.ColorPalette.#ctor(System.Int32[])">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.ColorPalette" /> class and IsCompactPalette is false.
+            </summary>
+      <param name="argb32Entries">The 32-bit ARGB color palette entries.</param>
+    </member>
+    <member name="M:Aspose.Imaging.ColorPalette.#ctor(Aspose.Imaging.Color[],System.Boolean)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.ColorPalette" /> class.
+            </summary>
+      <param name="entries">The color palette entries.</param>
+      <param name="isCompactPalette">Indicating whether compact it palette.</param>
+    </member>
+    <member name="M:Aspose.Imaging.ColorPalette.#ctor(Aspose.Imaging.Color[])">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.ColorPalette" /> class and IsCompactPalette is false.
+            </summary>
+      <param name="entries">The color palette entries.</param>
+    </member>
+    <member name="M:Aspose.Imaging.ColorPalette.CopyPalette(Aspose.Imaging.IColorPalette,System.Boolean)">
+      <summary>
+            Copies the palette.
+            </summary>
+      <param name="colorPalette">The color palette.</param>
+      <param name="useCompactPalette">Indicating whether compact palette.</param>
+      <returns>The newly created and copied palette or null if null palette passed.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.ColorPalette.CopyPalette(Aspose.Imaging.IColorPalette)">
+      <summary>
+            Copies the palette.
+            </summary>
+      <param name="colorPalette">The color palette.</param>
+      <returns>The newly created and copied palette or null if null palette passed.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.ColorPalette.GetNearestColorIndex(System.Int32)">
+      <summary>
+            Gets the index of the nearest color.
+            </summary>
+      <param name="argb32Color">The 32-bit ARGB color.</param>
+      <returns>The index of the nearest color.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.ColorPalette.GetNearestColorIndex(Aspose.Imaging.Color)">
+      <summary>
+            Gets the index of the nearest color.
+            </summary>
+      <param name="color">The color.</param>
+      <returns>The index of the nearest color.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.ColorPalette.GetArgb32Color(System.Int32)">
+      <summary>
+            Gets the 32-bit ARGB palette color by index.
+            </summary>
+      <param name="index">The 32-bit ARGB palette color index.</param>
+      <returns>The color palette entry specified by the <paramref name="index" />.</returns>
+      <exception cref="T:System.ArgumentOutOfRangeException"> if color palette <paramref name="index" /> specified is out of the palette entries range.</exception>
+    </member>
+    <member name="M:Aspose.Imaging.ColorPalette.GetColor(System.Int32)">
+      <summary>
+            Gets the palette color by index.
+            </summary>
+      <param name="index">The palette color index.</param>
+      <returns>The color palette entry specified by the <paramref name="index" />.</returns>
+      <exception cref="T:System.ArgumentOutOfRangeException"> if color palette <paramref name="index" /> specified is out of the palette entries range.</exception>
+    </member>
+    <member name="P:Aspose.Imaging.ColorPalette.EntriesCount">
+      <summary>
+            Gets the entries count.
+            </summary>
+      <value>The entries count.</value>
+    </member>
+    <member name="P:Aspose.Imaging.ColorPalette.Argb32Entries">
+      <summary>
+            Gets an array of 32-bit ARGB structures.
+            </summary>
+      <value>The entries.</value>
+      <returns>
+            The array of 32-bit ARGB structure that make up this <see cref="T:Aspose.Imaging.ColorPalette" />.
+            </returns>
+    </member>
+    <member name="P:Aspose.Imaging.ColorPalette.Entries">
+      <summary>
+            Gets an array of <see cref="T:Aspose.Imaging.Color" /> structures.
+            </summary>
+      <value>The entries.</value>
+      <returns>
+            The array of <see cref="T:Aspose.Imaging.Color" /> structure that make up this <see cref="T:Aspose.Imaging.ColorPalette" />.
+            </returns>
+    </member>
+    <member name="P:Aspose.Imaging.ColorPalette.IsCompactPalette">
+      <summary>
+            Gets or sets a value indicating whether compact palette is used.
+            </summary>
+      <value>
+        <c>true</c> if compact palette is used; otherwise, <c>false</c>.</value>
+      <remarks>Compact palette means that image will contain only the specified palette entries if possible or in other words the image will be more compact and occupy less space;
+            otherwise there will be 2^BitsPerPixel entries and image will reserve more space for all possible palette entries.
+            Setting this value to true and changing palette entries may cause performance penalty since data movement may occur so use it carefully.</remarks>
+    </member>
+    <member name="T:Aspose.Imaging.ColorPaletteHelper">
+      <summary>
+            Helper class for color palettes manipulation.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.ColorPaletteHelper.CreateMonochrome">
+      <summary>
+            Creates a monochrome color palette containing 2 colors only.
+            </summary>
+      <returns>
+            Color palette for monochrome images.
+            </returns>
+    </member>
+    <member name="M:Aspose.Imaging.ColorPaletteHelper.Create4Bit">
+      <summary>
+            Creates the 4 bit color palette.
+            </summary>
+      <returns>The 4 bit color palette.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.ColorPaletteHelper.Create4BitGrayscale(System.Boolean)">
+      <summary>
+            Creates the 4 bit grayscale palette.
+            </summary>
+      <param name="minIsWhite">if set to <c>true</c> the palette starts with white color, otherwise it starts with black color.</param>
+      <returns>
+            The 4 bit grayscale palette.
+            </returns>
+    </member>
+    <member name="M:Aspose.Imaging.ColorPaletteHelper.Create8Bit">
+      <summary>
+            Creates the 8 bit color palette.
+            </summary>
+      <returns>The 8 bit color palette.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.ColorPaletteHelper.Create8BitGrayscale(System.Boolean)">
+      <summary>
+            Creates the 8 bit grayscale palette.
+            </summary>
+      <param name="minIsWhite">if set to <c>true</c> the palette starts with white color, otherwise it starts with black color.</param>
+      <returns>
+            The 8 bit grayscale palette.
+            </returns>
+    </member>
+    <member name="M:Aspose.Imaging.ColorPaletteHelper.GetCloseImagePalette(Aspose.Imaging.RasterImage,System.Int32)">
+      <summary>
+            Gets color palette from raster image (palletizes image) in case the image does not have one. In case palette exists it will be used instead performing calculations.
+            </summary>
+      <param name="image">The raster image.</param>
+      <param name="entriesCount">The desired entries count.</param>
+      <returns>
+            The color palette which starts with the most frequent colors from the <paramref name="image" /> and contains <paramref name="entriesCount" /> entries.
+            </returns>
+    </member>
+    <member name="M:Aspose.Imaging.ColorPaletteHelper.GetCloseImagePalette(Aspose.Imaging.RasterImage,Aspose.Imaging.Rectangle,System.Int32)">
+      <summary>
+            Gets color palette from raster image (palletizes image) in case the image does not have one. In case palette exists it will be used instead performing calculations.
+            </summary>
+      <param name="image">The raster image.</param>
+      <param name="destBounds">The destination image bounds.</param>
+      <param name="entriesCount">The desired entries count.</param>
+      <returns>
+            The color palette which starts with the most frequent colors from the <paramref name="image" /> and contains <paramref name="entriesCount" /> entries.
+            </returns>
+    </member>
+    <member name="M:Aspose.Imaging.ColorPaletteHelper.GetUniformColorPalette(Aspose.Imaging.RasterImage)">
+      <summary>
+            Get uniform 256 color palette.
+            </summary>
+      <param name="image">
+            The image.
+            </param>
+      <returns>
+            The <see cref="T:Aspose.Imaging.ColorPalette" />.
+            </returns>
+    </member>
+    <member name="M:Aspose.Imaging.ColorPaletteHelper.GetDownscalePalette(Aspose.Imaging.RasterImage)">
+      <summary>
+            Get 256 color palette, composed from upper bits of initial image color values.
+            </summary>
+      <param name="image">
+            The image.
+            </param>
+      <returns>
+            The <see cref="T:Aspose.Imaging.ColorPalette" />.
+            </returns>
+    </member>
+    <member name="T:Aspose.Imaging.CompositingQuality">
+      <summary>
+            Specifies the quality level to use during compositing.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.CompositingQuality.Invalid">
+      <summary>
+            Invalid quality.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.CompositingQuality.Default">
+      <summary>
+            Default quality.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.CompositingQuality.HighSpeed">
+      <summary>
+            High speed, low quality.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.CompositingQuality.HighQuality">
+      <summary>
+            High quality, low speed compositing.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.CompositingQuality.GammaCorrected">
+      <summary>
+            Gamma correction is used.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.CompositingQuality.AssumeLinear">
+      <summary>
+            Assume linear values.
+            </summary>
+    </member>
+    <member name="T:Aspose.Imaging.Xmp.IXmlValue">
+      <summary>
+            Converts xmp values to the XML string representation.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.Xmp.IXmlValue.GetXmlValue">
+      <summary>
+            Converts XMP value to the XML representation.
+            </summary>
+      <returns>Returns the XMP value converted to the XML representation.</returns>
+    </member>
+    <member name="T:Aspose.Imaging.Xmp.LangAlt">
+      <summary>
+            Represents XMP Language Alternative.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.Xmp.LangAlt.languages">
+      <summary>
+            Dictionary of languages.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.Xmp.LangAlt.#ctor(System.String)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.Xmp.LangAlt" /> class.
+            </summary>
+      <param name="defaultValue">The default value.</param>
+    </member>
+    <member name="M:Aspose.Imaging.Xmp.LangAlt.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.Xmp.LangAlt" /> class.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.Xmp.LangAlt.AddLanguage(System.String,System.String)">
+      <summary>
+            Adds the language.
+            </summary>
+      <param name="language">The language.</param>
+      <param name="value">The language value.</param>
+    </member>
+    <member name="M:Aspose.Imaging.Xmp.LangAlt.ToString">
+      <summary>
+            Returns a <see cref="T:System.String" /> that represents this instance.
+            </summary>
+      <returns>
+            A <see cref="T:System.String" /> that represents this instance.
+            </returns>
+    </member>
+    <member name="M:Aspose.Imaging.Xmp.LangAlt.GetXmlValue">
+      <summary>
+            Converts XMP value to the XML representation.
+            </summary>
+      <returns>
+            Returns the XMP value converted to the XML representation.
+            </returns>
+    </member>
+    <member name="T:Aspose.Imaging.Xmp.NamespaceDoc">
+      <summary>
+            The namespace contains XMP related helper classes and methods.
+            </summary>
+    </member>
+    <member name="T:Aspose.Imaging.Xmp.NamespaceGroupDoc">
+      <summary>
+              The <b>Aspose.Imaging.Xmp</b> namespace contains namespaces used in RDF document.
+            </summary>
+    </member>
+    <member name="T:Aspose.Imaging.Xmp.Namespaces">
+      <summary>
+            Contains namespaces used in RDF document.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.Xmp.Namespaces.Xml">
+      <summary>
+            Xml namespace.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.Xmp.Namespaces.Rdf">
+      <summary>
+            Resource definition framework namespace.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.Xmp.Namespaces.DublinCore">
+      <summary>
+            Dublic Core namespace.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.Xmp.Namespaces.XmpBasic">
+      <summary>
+            XMP Basic namespace.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.Xmp.Namespaces.XmpRights">
+      <summary>
+            XMP Rights Management namespace.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.Xmp.Namespaces.XmpMm">
+      <summary>
+            XMP digital asset management namespace.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.Xmp.Namespaces.XmpDm">
+      <summary>
+            XMP Dynamic Media namespace.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.Xmp.Namespaces.Pdf">
+      <summary>
+            Adobe PDF namespace.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.Xmp.Namespaces.Photoshop">
+      <summary>
+            Adobe Photoshop namespace.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.Xmp.Namespaces.XmpGraphics">
+      <summary>
+            XMP graphics namespace.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.Xmp.Namespaces.XmpGraphicsThumbnail">
+      <summary>
+            XMP graphics namespace.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.Xmp.Namespaces.XmpTypeFont">
+      <summary>
+            XMP Font type.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.Xmp.Namespaces.XmpTypeDimensions">
+      <summary>
+            XMP Dimensions type.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.Xmp.Namespaces.XmpTypeResourceRef">
+      <summary>
+            XMP ResourceRef URI.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.Xmp.Namespaces.XmpTypeResourceEvent">
+      <summary>
+            XMP ResourceEvent URI.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.Xmp.Namespaces.XmpTypeVersion">
+      <summary>
+            XMP Version.
+            </summary>
+    </member>
+    <member name="T:Aspose.Imaging.Xmp.Schemas.DublinCore.DublinCorePackage">
+      <summary>
+            Represents Dublic Core schema.
+            </summary>
+      <remarks>
+            For more information see: http://dublincore.org/documents/usageguide/elements.shtml.
+            </remarks>
+    </member>
+    <member name="T:Aspose.Imaging.Xmp.XmpPackage">
+      <summary>
+            Represents base abstraction for XMP package.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.Xmp.XmpPackage.prefix">
+      <summary>
+            Xmlns prefix. For example, xmlns:dc.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.Xmp.XmpPackage.namespaceUri">
+      <summary>
+            Namespace uri for the specific XMP schema.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.Xmp.XmpPackage.properties">
+      <summary>
+            Dictionary of key/value properties XMP package.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.Xmp.XmpPackage.GetKeyValueAsXml(System.String)">
+      <summary>
+            Gets the RDF code for specific <see cref="T:Aspose.Imaging.Xmp.XmpArrayType" />.
+            </summary>
+      <param name="key">The type of XMP array.</param>
+      <returns>Returns the RDF code for specific <see cref="T:Aspose.Imaging.Xmp.XmpArrayType" />.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.Xmp.XmpPackage.ContainsKey(System.String)">
+      <summary>
+            Determines whether the specified key contains key.
+            </summary>
+      <param name="key">The key to be checked.</param>
+      <returns>Returns true if the specified key contains key.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.Xmp.XmpPackage.AddValue(System.String,System.String)">
+      <summary>
+            Adds the value.
+            </summary>
+      <param name="key">The string representation of key that is identified with added value.</param>
+      <param name="value">The value to add to.</param>
+      <exception cref="T:System.ArgumentNullException">key is null.</exception>
+    </member>
+    <member name="M:Aspose.Imaging.Xmp.XmpPackage.Remove(System.String)">
+      <summary>
+            Remove the value with the specified key.
+            </summary>
+      <param name="key">The string representation of key that is identified with removed value.</param>
+      <returns>
+            Returns true if the value with the specified key was removed.
+            </returns>
+    </member>
+    <member name="M:Aspose.Imaging.Xmp.XmpPackage.Clear">
+      <summary>
+            Clears this instance.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.Xmp.XmpPackage.SetValue(System.String,Aspose.Imaging.Xmp.IXmlValue)">
+      <summary>
+            Sets the value.
+            </summary>
+      <param name="key">The string representation of key that is identified with added value.</param>
+      <param name="value">The value to add to.</param>
+    </member>
+    <member name="M:Aspose.Imaging.Xmp.XmpPackage.SetXmpTypeValue(System.String,Aspose.Imaging.Xmp.Types.XmpTypeBase)">
+      <summary>
+            Sets the XMP type value.
+            </summary>
+      <param name="key">The string representation of key that is identified with set value.</param>
+      <param name="value">The value to set to.</param>
+    </member>
+    <member name="M:Aspose.Imaging.Xmp.XmpPackage.GetXmlValue">
+      <summary>
+            Converts XMP value to the

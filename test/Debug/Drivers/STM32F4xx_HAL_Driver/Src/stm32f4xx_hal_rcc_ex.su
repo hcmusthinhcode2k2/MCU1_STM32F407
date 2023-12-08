@@ -1,0 +1,41 @@
+0)
+    DIG_4_SetLow();
+    </code>
+
+*/
+#define DIG_4_SetLow()           (_LATD5 = 0)
+/**
+  @Summary
+    Toggles the GPIO pin, RD5, using LATD5.
+
+  @Description
+    Toggles the GPIO pin, RD5, using LATD5.
+
+  @Preconditions
+    The RD5 must be set to an output.
+
+  @Returns
+    None.
+
+  @Param
+    None.
+
+  @Example
+    <code>
+    // Toggle RD5
+    DIG_4_Toggle();
+    </code>
+
+*/
+#define DIG_4_Toggle()           (_LATD5 ^= 1)
+/**
+  @Summary
+    Reads the value of the GPIO pin, RD5.
+
+  @Description
+    Reads the value of the GPIO pin, RD5.
+
+  @Preconditions
+    None.
+
+ 

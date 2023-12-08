@@ -1,0 +1,870 @@
+mber name="P:Aspose.Imaging.Shapes.PolygonShape.Center">
+      <summary>
+            Gets the shape's center.
+            </summary>
+      <value>The shape's center.</value>
+    </member>
+    <member name="P:Aspose.Imaging.Shapes.PolygonShape.Segments">
+      <summary>
+            Gets the shape segments.
+            </summary>
+      <value>The shape segments.</value>
+    </member>
+    <member name="P:Aspose.Imaging.Shapes.PolygonShape.HasSegments">
+      <summary>
+            Gets a value indicating whether shape has segments.
+            </summary>
+      <value>
+        <c>True</c> if shape has segments; otherwise, <c>false</c>.</value>
+    </member>
+    <member name="P:Aspose.Imaging.Shapes.PolygonShape.StartPoint">
+      <summary>
+            Gets the starting shape point.
+            </summary>
+      <value>The starting shape point.</value>
+    </member>
+    <member name="P:Aspose.Imaging.Shapes.PolygonShape.EndPoint">
+      <summary>
+            Gets the ending shape point.
+            </summary>
+      <value>The ending shape point.</value>
+    </member>
+    <member name="M:Aspose.Imaging.Shapes.BezierShape.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.Shapes.BezierShape" /> class.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.Shapes.BezierShape.#ctor(Aspose.Imaging.PointF[])">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.Shapes.BezierShape" /> class.
+            </summary>
+      <param name="points">The points array.</param>
+    </member>
+    <member name="M:Aspose.Imaging.Shapes.BezierShape.#ctor(Aspose.Imaging.PointF[],System.Boolean)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.Shapes.BezierShape" /> class.
+            </summary>
+      <param name="points">The points array.</param>
+      <param name="isClosed">If set to <c>true</c> the bezier spline is closed.</param>
+    </member>
+    <member name="M:Aspose.Imaging.Shapes.BezierShape.GetBounds(Aspose.Imaging.Matrix)">
+      <summary>
+            Gets the object's bounds.
+            </summary>
+      <param name="matrix">The matrix to apply before bounds will be calculated.</param>
+      <returns>The estimated object's bounds.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.Shapes.BezierShape.GetBounds(Aspose.Imaging.Matrix,Aspose.Imaging.Pen)">
+      <summary>
+            Gets the object's bounds.
+            </summary>
+      <param name="matrix">The matrix to apply before bounds will be calculated.</param>
+      <param name="pen">The pen to use for object. This can influence the object's bounds size.</param>
+      <returns>The estimated object's bounds.</returns>
+    </member>
+    <member name="P:Aspose.Imaging.Shapes.BezierShape.Bounds">
+      <summary>
+            Gets the object's bounds.
+            </summary>
+      <value>The object's bounds.</value>
+    </member>
+    <member name="P:Aspose.Imaging.Shapes.BezierShape.Center">
+      <summary>
+            Gets the shape's center.
+            </summary>
+      <value>The shape's center.</value>
+    </member>
+    <member name="P:Aspose.Imaging.Shapes.BezierShape.Segments">
+      <summary>
+            Gets the shape segments.
+            </summary>
+      <value>The shape segments.</value>
+    </member>
+    <member name="P:Aspose.Imaging.Shapes.BezierShape.HasSegments">
+      <summary>
+            Gets a value indicating whether shape has segments.
+            </summary>
+      <value>
+        <c>True</c> if shape has segments; otherwise, <c>false</c>.</value>
+    </member>
+    <member name="P:Aspose.Imaging.Shapes.BezierShape.EndPoint">
+      <summary>
+            Gets the ending shape point.
+            </summary>
+      <value>The ending shape point.</value>
+    </member>
+    <member name="T:Aspose.Imaging.Shapes.CurveShape">
+      <summary>
+            Represents a curved spline shape.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.Shapes.CurveShape.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.Shapes.CurveShape" /> class.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.Shapes.CurveShape.#ctor(Aspose.Imaging.PointF[])">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.Shapes.CurveShape" /> class. The default tension of 0.5 is used.
+            </summary>
+      <param name="points">The points array.</param>
+    </member>
+    <member name="M:Aspose.Imaging.Shapes.CurveShape.#ctor(Aspose.Imaging.PointF[],System.Boolean)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.Shapes.CurveShape" /> class. The default tension of 0.5 is used.
+            </summary>
+      <param name="points">The points array.</param>
+            /// <param name="isClosed">if set to <c>true</c> the curve is closed.</param></member>
+    <member name="M:Aspose.Imaging.Shapes.CurveShape.#ctor(Aspose.Imaging.PointF[],System.Single)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.Shapes.CurveShape" /> class.
+            </summary>
+      <param name="points">The points array.</param>
+      <param name="tension">The curve tension.</param>
+    </member>
+    <member name="M:Aspose.Imaging.Shapes.CurveShape.#ctor(Aspose.Imaging.PointF[],System.Single,System.Boolean)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.Shapes.CurveShape" /> class.
+            </summary>
+      <param name="points">The points array.</param>
+      <param name="tension">The curve tension.</param>
+      <param name="isClosed">if set to <c>true</c> the curve is closed.</param>
+    </member>
+    <member name="M:Aspose.Imaging.Shapes.CurveShape.GetBounds(Aspose.Imaging.Matrix)">
+      <summary>
+            Gets the object's bounds.
+            </summary>
+      <param name="matrix">The matrix to apply before bounds will be calculated.</param>
+      <returns>The estimated object's bounds.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.Shapes.CurveShape.GetBounds(Aspose.Imaging.Matrix,Aspose.Imaging.Pen)">
+      <summary>
+            Gets the object's bounds.
+            </summary>
+      <param name="matrix">The matrix to apply before bounds will be calculated.</param>
+      <param name="pen">The pen to use for object. This can influence the object's bounds size.</param>
+      <returns>The estimated object's bounds.</returns>
+    </member>
+    <member name="P:Aspose.Imaging.Shapes.CurveShape.Tension">
+      <summary>
+            Gets or sets the curve tension.
+            </summary>
+      <value>The curve tension.</value>
+    </member>
+    <member name="P:Aspose.Imaging.Shapes.CurveShape.Bounds">
+      <summary>
+            Gets the object's bounds.
+            </summary>
+      <value>The object's bounds.</value>
+    </member>
+    <member name="P:Aspose.Imaging.Shapes.CurveShape.Center">
+      <summary>
+            Gets the shape's center.
+            </summary>
+      <value>The shape's center.</value>
+    </member>
+    <member name="P:Aspose.Imaging.Shapes.CurveShape.Segments">
+      <summary>
+            Gets the shape segments.
+            </summary>
+      <value>The shape segments.</value>
+    </member>
+    <member name="T:Aspose.Imaging.Shapes.NamespaceDoc">
+      <summary>
+            The namespace contains different shapes combined from shape segments.
+            </summary>
+    </member>
+    <member name="T:Aspose.Imaging.Shapes.TextShape">
+      <summary>
+            Represents a text shape.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.Shapes.TextShape.#ctor">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.Shapes.TextShape" /> class.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.Shapes.TextShape.#ctor(System.String,Aspose.Imaging.RectangleF,Aspose.Imaging.Font,Aspose.Imaging.StringFormat)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.Shapes.TextShape" /> class.
+            </summary>
+      <param name="text">The text to draw.</param>
+      <param name="rectangle">The text rectangle.</param>
+      <param name="font">The font to use.</param>
+      <param name="stringFormat">The string format.</param>
+    </member>
+    <member name="M:Aspose.Imaging.Shapes.TextShape.GetBounds(Aspose.Imaging.Matrix)">
+      <summary>
+            Gets the object's bounds.
+            </summary>
+      <param name="matrix">The matrix to apply before bounds will be calculated.</param>
+      <returns>The estimated object's bounds.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.Shapes.TextShape.GetBounds(Aspose.Imaging.Matrix,Aspose.Imaging.Pen)">
+      <summary>
+            Gets the object's bounds.
+            </summary>
+      <param name="matrix">The matrix to apply before bounds will be calculated.</param>
+      <param name="pen">The pen to use for object. This can influence the object's bounds size.</param>
+      <returns>The estimated object's bounds.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.Shapes.TextShape.Transform(Aspose.Imaging.Matrix)">
+      <summary>
+            Applies the specified transformation to the shape.
+            </summary>
+      <param name="transform">The transformation to apply.</param>
+    </member>
+    <member name="P:Aspose.Imaging.Shapes.TextShape.Text">
+      <summary>
+            Gets or sets the drawn text.
+            </summary>
+      <value>The drawn text.</value>
+    </member>
+    <member name="P:Aspose.Imaging.Shapes.TextShape.Font">
+      <summary>
+            Gets or sets the font used to draw the text.
+            </summary>
+      <value>The font used to draw the text.</value>
+    </member>
+    <member name="P:Aspose.Imaging.Shapes.TextShape.TextFormat">
+      <summary>
+            Gets or sets the text format.
+            </summary>
+      <value>The text format.</value>
+    </member>
+    <member name="P:Aspose.Imaging.Shapes.TextShape.Center">
+      <summary>
+            Gets the shape's center.
+            </summary>
+      <value>The shape's center.</value>
+    </member>
+    <member name="P:Aspose.Imaging.Shapes.TextShape.Bounds">
+      <summary>
+            Gets the object's bounds.
+            </summary>
+      <value>The object's bounds.</value>
+    </member>
+    <member name="P:Aspose.Imaging.Shapes.TextShape.Segments">
+      <summary>
+            Gets the shape segments.
+            </summary>
+      <value>The shape segments.</value>
+    </member>
+    <member name="P:Aspose.Imaging.Shapes.TextShape.HasSegments">
+      <summary>
+            Gets a value indicating whether shape has segments.
+            </summary>
+      <value>
+        <c>True</c> if shape has segments; otherwise, <c>false</c>.</value>
+    </member>
+    <member name="T:Aspose.Imaging.Size">
+      <summary>
+            Represents size.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.Size.#ctor(Aspose.Imaging.Point)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.Size" /> structure from the specified <see cref="T:Aspose.Imaging.Point" />.
+            </summary>
+      <param name="point">The <see cref="T:Aspose.Imaging.Point" /> from which to initialize this <see cref="T:Aspose.Imaging.Size" />.</param>
+    </member>
+    <member name="M:Aspose.Imaging.Size.#ctor(System.Int32,System.Int32)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.Size" /> structure from the specified dimensions.
+            </summary>
+      <param name="width">The width component of the new <see cref="T:Aspose.Imaging.Size" />.</param>
+      <param name="height">The height component of the new <see cref="T:Aspose.Imaging.Size" />.</param>
+    </member>
+    <member name="M:Aspose.Imaging.Size.op_Implicit(Aspose.Imaging.Size)~Aspose.Imaging.SizeF">
+      <summary>
+            Converts the specified <see cref="T:Aspose.Imaging.Size" /> to a <see cref="T:Aspose.Imaging.SizeF" />.
+            </summary>
+      <param name="size">The <see cref="T:Aspose.Imaging.Size" /> to convert.</param>
+      <returns>The <see cref="T:Aspose.Imaging.SizeF" /> structure to which this operator converts.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.Size.op_Addition(Aspose.Imaging.Size,Aspose.Imaging.Size)">
+      <summary>
+            Adds the width and height of one <see cref="T:Aspose.Imaging.Size" /> structure to the width and height of another <see cref="T:Aspose.Imaging.Size" /> structure.
+            </summary>
+      <param name="size1">The first <see cref="T:Aspose.Imaging.Size" /> to add.</param>
+      <param name="size2">The second <see cref="T:Aspose.Imaging.Size" /> to add.</param>
+      <returns>A <see cref="T:Aspose.Imaging.Size" /> structure that is the result of the addition operation.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.Size.op_Subtraction(Aspose.Imaging.Size,Aspose.Imaging.Size)">
+      <summary>
+            Subtracts the width and height of one <see cref="T:Aspose.Imaging.Size" /> structure from the width and height of another <see cref="T:Aspose.Imaging.Size" /> structure.
+            </summary>
+      <param name="size1">The <see cref="T:Aspose.Imaging.Size" /> structure on the left side of the subtraction operator.</param>
+      <param name="size2">The <see cref="T:Aspose.Imaging.Size" /> structure on the right side of the subtraction operator.</param>
+      <returns>A <see cref="T:Aspose.Imaging.Size" /> structure that is the result of the subtraction operation.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.Size.op_Equality(Aspose.Imaging.Size,Aspose.Imaging.Size)">
+      <summary>
+            Tests whether two <see cref="T:Aspose.Imaging.Size" /> structures are equal.
+            </summary>
+      <param name="size1">The <see cref="T:Aspose.Imaging.Size" /> structure on the left side of the equality operator.</param>
+      <param name="size2">The <see cref="T:Aspose.Imaging.Size" /> structure on the right of the equality operator.</param>
+      <returns>True if <paramref name="size1" /> and <paramref name="size2" /> have equal width and height; otherwise, false.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.Size.op_Inequality(Aspose.Imaging.Size,Aspose.Imaging.Size)">
+      <summary>
+            Tests whether two <see cref="T:Aspose.Imaging.Size" /> structures are different.
+            </summary>
+      <param name="size1">The <see cref="T:Aspose.Imaging.Size" /> structure on the left of the inequality operator.</param>
+      <param name="size2">The <see cref="T:Aspose.Imaging.Size" /> structure on the right of the inequality operator.</param>
+      <returns>True if <paramref name="size1" /> and <paramref name="size2" /> differ either in width or height; false if <paramref name="size1" /> and <paramref name="size2" /> are equal.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.Size.op_Explicit(Aspose.Imaging.Size)~Aspose.Imaging.Point">
+      <summary>
+            Converts the specified <see cref="T:Aspose.Imaging.Size" /> to a <see cref="T:Aspose.Imaging.Point" />.
+            </summary>
+      <param name="size">The <see cref="T:Aspose.Imaging.Size" /> to convert.</param>
+      <returns>The <see cref="T:Aspose.Imaging.Point" /> structure to which this operator converts.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.Size.Add(Aspose.Imaging.Size,Aspose.Imaging.Size)">
+      <summary>
+            Adds the width and height of one <see cref="T:Aspose.Imaging.Size" /> structure to the width and height of another <see cref="T:Aspose.Imaging.Size" /> structure.
+            </summary>
+      <param name="size1">The first <see cref="T:Aspose.Imaging.Size" /> to add.</param>
+      <param name="size2">The second <see cref="T:Aspose.Imaging.Size" /> to add.</param>
+      <returns>A <see cref="T:Aspose.Imaging.Size" /> structure that is the result of the addition operation.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.Size.Ceiling(Aspose.Imaging.SizeF)">
+      <summary>
+            Converts the specified <see cref="T:Aspose.Imaging.SizeF" /> structure to a <see cref="T:Aspose.Imaging.Size" /> structure by rounding the values of the <see cref="T:Aspose.Imaging.Size" /> structure to the next higher integer values.
+            </summary>
+      <param name="size">The <see cref="T:Aspose.Imaging.SizeF" /> structure to convert.</param>
+      <returns>The <see cref="T:Aspose.Imaging.Size" /> structure this method converts to.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.Size.Subtract(Aspose.Imaging.Size,Aspose.Imaging.Size)">
+      <summary>
+            Subtracts the width and height of one <see cref="T:Aspose.Imaging.Size" /> structure from the width and height of another <see cref="T:Aspose.Imaging.Size" /> structure.
+            </summary>
+      <param name="size1">The <see cref="T:Aspose.Imaging.Size" /> structure on the left side of the subtraction operator.</param>
+      <param name="size2">The <see cref="T:Aspose.Imaging.Size" /> structure on the right side of the subtraction operator.</param>
+      <returns>The <see cref="T:Aspose.Imaging.Size" /> that is a result of the subtraction operation.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.Size.Truncate(Aspose.Imaging.SizeF)">
+      <summary>
+            Converts the specified <see cref="T:Aspose.Imaging.SizeF" /> structure to a <see cref="T:Aspose.Imaging.Size" /> structure by truncating the values of the <see cref="T:Aspose.Imaging.SizeF" /> structure to the next lower integer values.
+            </summary>
+      <param name="size">The <see cref="T:Aspose.Imaging.SizeF" /> structure to convert.</param>
+      <returns>The <see cref="T:Aspose.Imaging.Size" /> structure this method converts to.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.Size.Round(Aspose.Imaging.SizeF)">
+      <summary>
+            Converts the specified <see cref="T:Aspose.Imaging.SizeF" /> structure to a <see cref="T:Aspose.Imaging.Size" /> structure by rounding the values of the <see cref="T:Aspose.Imaging.SizeF" /> structure to the nearest integer values.
+            </summary>
+      <param name="size">The <see cref="T:Aspose.Imaging.SizeF" /> structure to convert.</param>
+      <returns>The <see cref="T:Aspose.Imaging.Size" /> structure this method converts to.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.Size.Equals(System.Object)">
+      <summary>
+            Tests to see whether the specified object is a <see cref="T:Aspose.Imaging.Size" /> with the same dimensions as this <see cref="T:Aspose.Imaging.Size" />.
+            </summary>
+      <param name="obj">The <see cref="T:System.Object" /> to test.</param>
+      <returns>True if <paramref name="obj" /> is a <see cref="T:Aspose.Imaging.Size" /> and has the same width and height as this <see cref="T:Aspose.Imaging.Size" />; otherwise, false.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.Size.GetHashCode">
+      <summary>
+            Returns a hash code for this <see cref="T:Aspose.Imaging.Size" /> structure.
+            </summary>
+      <returns>An integer value that specifies a hash value for this <see cref="T:Aspose.Imaging.Size" /> structure.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.Size.ToString">
+      <summary>
+            Creates a human-readable string that represents this <see cref="T:Aspose.Imaging.Size" />.
+            </summary>
+      <returns>A string that represents this <see cref="T:Aspose.Imaging.Size" />.</returns>
+    </member>
+    <member name="P:Aspose.Imaging.Size.Empty">
+      <summary>
+            Gets a new instance of the <see cref="T:Aspose.Imaging.Size" /> structure that has <see cref="P:Aspose.Imaging.Size.Width" /> and <see cref="P:Aspose.Imaging.Size.Height" /> values set to zero.
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.Size.IsEmpty">
+      <summary>
+            Gets a value indicating whether this <see cref="T:Aspose.Imaging.Size" /> has width and height of 0.
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.Size.Width">
+      <summary>
+            Gets or sets the horizontal component of this <see cref="T:Aspose.Imaging.Size" />.
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.Size.Height">
+      <summary>
+            Gets or sets the vertical component of this <see cref="T:Aspose.Imaging.Size" />.
+            </summary>
+    </member>
+    <member name="T:Aspose.Imaging.SizeF">
+      <summary>
+            Stores an ordered pair of floating-point numbers, typically the width and height of a rectangle.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.SizeF.#ctor(Aspose.Imaging.SizeF)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.SizeF" /> structure from the specified <see cref="T:Aspose.Imaging.SizeF" />.
+            </summary>
+      <param name="size">The <see cref="T:Aspose.Imaging.SizeF" /> from which to create the new <see cref="T:Aspose.Imaging.SizeF" />.</param>
+    </member>
+    <member name="M:Aspose.Imaging.SizeF.#ctor(Aspose.Imaging.PointF)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.SizeF" /> structure from the specified <see cref="T:Aspose.Imaging.PointF" />.
+            </summary>
+      <param name="point">The <see cref="T:Aspose.Imaging.PointF" /> from which to initialize this <see cref="T:Aspose.Imaging.SizeF" />.</param>
+    </member>
+    <member name="M:Aspose.Imaging.SizeF.#ctor(System.Single,System.Single)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.SizeF" /> structure from the specified dimensions.
+            </summary>
+      <param name="width">The width component of the new <see cref="T:Aspose.Imaging.SizeF" />.</param>
+      <param name="height">The height component of the new <see cref="T:Aspose.Imaging.SizeF" />.</param>
+    </member>
+    <member name="M:Aspose.Imaging.SizeF.op_Addition(Aspose.Imaging.SizeF,Aspose.Imaging.SizeF)">
+      <summary>
+            Adds the width and height of one <see cref="T:Aspose.Imaging.SizeF" /> structure to the width and height of another <see cref="T:Aspose.Imaging.SizeF" /> structure.
+            </summary>
+      <param name="size1">The first <see cref="T:Aspose.Imaging.SizeF" /> to add.</param>
+      <param name="size2">The second <see cref="T:Aspose.Imaging.SizeF" /> to add.</param>
+      <returns>A <see cref="T:Aspose.Imaging.SizeF" /> structure that is the result of the addition operation.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.SizeF.op_Subtraction(Aspose.Imaging.SizeF,Aspose.Imaging.SizeF)">
+      <summary>
+            Subtracts the width and height of one <see cref="T:Aspose.Imaging.SizeF" /> structure from the width and height of another <see cref="T:Aspose.Imaging.SizeF" /> structure.
+            </summary>
+      <param name="size1">The <see cref="T:Aspose.Imaging.SizeF" /> on the left side of the subtraction operator.</param>
+      <param name="size2">The <see cref="T:Aspose.Imaging.SizeF" /> on the right side of the subtraction operator.</param>
+      <returns>A <see cref="T:Aspose.Imaging.SizeF" /> that is the result of the subtraction operation.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.SizeF.op_Equality(Aspose.Imaging.SizeF,Aspose.Imaging.SizeF)">
+      <summary>
+            Tests whether two <see cref="T:Aspose.Imaging.SizeF" /> structures are equal.
+            </summary>
+      <param name="size1">The <see cref="T:Aspose.Imaging.SizeF" /> structure on the left side of the equality operator.</param>
+      <param name="size2">The <see cref="T:Aspose.Imaging.SizeF" /> structure on the right of the equality operator.</param>
+      <returns>This operator returns true if <paramref name="size1" /> and <paramref name="size2" /> have equal width and height; otherwise, false.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.SizeF.op_Inequality(Aspose.Imaging.SizeF,Aspose.Imaging.SizeF)">
+      <summary>
+            Tests whether two <see cref="T:Aspose.Imaging.SizeF" /> structures are different.
+            </summary>
+      <param name="size1">The <see cref="T:Aspose.Imaging.SizeF" /> structure on the left of the inequality operator.</param>
+      <param name="size2">The <see cref="T:Aspose.Imaging.SizeF" /> structure on the right of the inequality operator.</param>
+      <returns>This operator returns true if <paramref name="size1" /> and <paramref name="size2" /> differ either in width or height; false if <paramref name="size1" /> and <paramref name="size2" /> are equal.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.SizeF.op_Explicit(Aspose.Imaging.SizeF)~Aspose.Imaging.PointF">
+      <summary>
+            Converts the specified <see cref="T:Aspose.Imaging.SizeF" /> to a <see cref="T:Aspose.Imaging.PointF" />.
+            </summary>
+      <param name="size">The <see cref="T:Aspose.Imaging.SizeF" /> structure to be converted</param>
+      <returns>The <see cref="T:Aspose.Imaging.PointF" /> structure to which this operator converts.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.SizeF.Add(Aspose.Imaging.SizeF,Aspose.Imaging.SizeF)">
+      <summary>
+            Adds the width and height of one <see cref="T:Aspose.Imaging.SizeF" /> structure to the width and height of another <see cref="T:Aspose.Imaging.SizeF" /> structure.
+            </summary>
+      <param name="size1">The first <see cref="T:Aspose.Imaging.SizeF" /> to add.</param>
+      <param name="size2">The second <see cref="T:Aspose.Imaging.SizeF" /> to add.</param>
+      <returns>A <see cref="T:Aspose.Imaging.SizeF" /> structure that is the result of the addition operation.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.SizeF.Subtract(Aspose.Imaging.SizeF,Aspose.Imaging.SizeF)">
+      <summary>
+            Subtracts the width and height of one <see cref="T:Aspose.Imaging.SizeF" /> structure from the width and height of another <see cref="T:Aspose.Imaging.SizeF" /> structure.
+            </summary>
+      <param name="size1">The <see cref="T:Aspose.Imaging.SizeF" /> structure on the left side of the subtraction operator.</param>
+      <param name="size2">The <see cref="T:Aspose.Imaging.SizeF" /> structure on the right side of the subtraction operator.</param>
+      <returns>The <see cref="T:Aspose.Imaging.SizeF" /> that is a result of the subtraction operation.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.SizeF.ToPointF">
+      <summary>
+            Converts a <see cref="T:Aspose.Imaging.SizeF" /> to a <see cref="T:Aspose.Imaging.PointF" />.
+            </summary>
+      <returns>Returns a <see cref="T:Aspose.Imaging.PointF" /> structure.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.SizeF.ToSize">
+      <summary>
+            Converts a <see cref="T:Aspose.Imaging.SizeF" /> to a <see cref="T:Aspose.Imaging.Size" /> structure with truncated size values.
+            </summary>
+      <returns>Returns a <see cref="T:Aspose.Imaging.Size" /> structure.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.SizeF.Equals(System.Object)">
+      <summary>
+            Tests to see whether the specified object is a <see cref="T:Aspose.Imaging.SizeF" /> with the same dimensions as this <see cref="T:Aspose.Imaging.SizeF" />.
+            </summary>
+      <param name="obj">The <see cref="T:System.Object" /> to test.</param>
+      <returns>This method returns true if <paramref name="obj" /> is a <see cref="T:Aspose.Imaging.SizeF" /> and has the same width and height as this <see cref="T:Aspose.Imaging.SizeF" />; otherwise, false.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.SizeF.GetHashCode">
+      <summary>
+            Returns a hash code for this <see cref="T:Aspose.Imaging.Size" /> structure.
+            </summary>
+      <returns>An integer value that specifies a hash value for this <see cref="T:Aspose.Imaging.Size" /> structure.</returns>
+    </member>
+    <member name="M:Aspose.Imaging.SizeF.ToString">
+      <summary>
+            Creates a human-readable string that represents this <see cref="T:Aspose.Imaging.SizeF" />.
+            </summary>
+      <returns>A string that represents this <see cref="T:Aspose.Imaging.SizeF" />.</returns>
+    </member>
+    <member name="P:Aspose.Imaging.SizeF.Empty">
+      <summary>
+            Gets a new instance of the <see cref="T:Aspose.Imaging.SizeF" /> structure that has <see cref="P:Aspose.Imaging.SizeF.Width" /> and <see cref="P:Aspose.Imaging.SizeF.Height" /> values set to zero.
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.SizeF.IsEmpty">
+      <summary>
+            Gets a value indicating whether this <see cref="T:Aspose.Imaging.SizeF" /> has zero width and height.
+            </summary>
+      <returns>This property returns true when this <see cref="T:Aspose.Imaging.SizeF" /> has both a width and height of zero; otherwise, false.</returns>
+    </member>
+    <member name="P:Aspose.Imaging.SizeF.Width">
+      <summary>
+            Gets or sets the horizontal component of this <see cref="T:Aspose.Imaging.SizeF" />.
+            </summary>
+      <returns>The horizontal component of this <see cref="T:Aspose.Imaging.SizeF" />, typically measured in pixels.</returns>
+    </member>
+    <member name="P:Aspose.Imaging.SizeF.Height">
+      <summary>
+            Gets or sets the vertical component of this <see cref="T:Aspose.Imaging.SizeF" />.
+            </summary>
+      <returns>The vertical component of this <see cref="T:Aspose.Imaging.SizeF" />, typically measured in pixels.</returns>
+    </member>
+    <member name="T:Aspose.Imaging.SmoothingMode">
+      <summary>
+            Specifies whether smoothing (antialiasing) is applied to lines and curves and the edges of filled areas.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.SmoothingMode.Invalid">
+      <summary>
+            Specifies an invalid mode.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.SmoothingMode.Default">
+      <summary>
+            Specifies no antialiasing.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.SmoothingMode.HighSpeed">
+      <summary>
+            Specifies no antialiasing.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.SmoothingMode.HighQuality">
+      <summary>
+            Specifies antialiased rendering.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.SmoothingMode.None">
+      <summary>
+            Specifies no antialiasing.
+            </summary>
+    </member>
+    <member name="F:Aspose.Imaging.SmoothingMode.AntiAlias">
+      <summary>
+            Specifies antialiased rendering.
+            </summary>
+    </member>
+    <member name="T:Aspose.Imaging.Source">
+      <summary>
+            The source is used to contain all relevant information for an object pipe.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.Source.GetStreamContainer">
+      <summary>
+            Gets the stream container.
+            </summary>
+      <returns>the stream container.</returns>
+      <remarks>Use with caution. You will need to dispose the stream container after retrieval.</remarks>
+    </member>
+    <member name="T:Aspose.Imaging.Sources.FileCreateSource">
+      <summary>
+            Represents a file source for creation.
+            </summary>
+      <example>This example demonstrates the use of Font and SolidBrush class to draw strings on Image surface. The example creates a new Image and draw shapes using Figures and GraphicsPath<code>[C#]
+
+//Creates an instance of BmpOptions and set its various properties
+Aspose.Imaging.ImageOptions.BmpOptions bmpOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
+bmpOptions.BitsPerPixel = 24;
+
+//Create an instance of FileCreateSource and assign it as Source for the instance of BmpOptions
+//Second Boolean parameter determines if the file to be created IsTemporal or not
+bmpOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(@"C:\temp\sample.bmp", false);
+
+//Creates an instance of Image
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500, 500))
+{
+    //Creates and initialize an instance of Graphics class
+    Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(image);
+
+    //Clears Graphics surface
+    graphics.Clear(Color.Wheat);
+
+    //Creates an instance of Font
+    Aspose.Imaging.Font font = new Aspose.Imaging.Font("Times New Roman", 16);
+
+    //Create an instance of SolidBrush having Red Color
+    Aspose.Imaging.Brushes.SolidBrush brush = new Aspose.Imaging.Brushes.SolidBrush(Color.Red);
+
+    //Draw a String
+    graphics.DrawString("Created by Aspose.Imaging for .Net", font, brush, new PointF(100, 100));
+
+    // save all changes
+    image.Save();
+}</code></example>
+    </member>
+    <member name="T:Aspose.Imaging.Sources.FileSource">
+      <summary>
+            Represents a file source which is capable of files manipulation.
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.Sources.FileSource.IsTemporal">
+      <summary>
+            Gets a value indicating whether file will be temporal.
+            </summary>
+      <value>
+        <c>true</c> if file will be temporal; otherwise, <c>false</c>.
+            </value>
+    </member>
+    <member name="M:Aspose.Imaging.Sources.FileCreateSource.#ctor(System.String)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.Sources.FileCreateSource" /> class.
+            </summary>
+      <param name="filePath">The file path to create.</param>
+      <example>This example creates a new Image file at some disk location as specified by Source property of the BmpOptions instance. If second parameter is not passed to the constructor of FileCreateSource, then by default the file to be created has property IsTemporal set to True. With IsTemporal set to True, no file will be saved on disk at the end of execution.<code>[C#]
+
+//Creates an instance of BmpOptions and set its various properties
+Aspose.Imaging.ImageOptions.BmpOptions bmpOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
+bmpOptions.BitsPerPixel = 24;
+
+//Create an instance of FileCreateSource and assign it as Source for the instance of BmpOptions
+//If second parameter is not passed, then by default the file has IsTemporal set to True
+bmpOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(@"C:\temp\output.bmp");
+
+//Creates an instance of Image 
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500, 500))
+{
+    //do some image processing
+}</code></example>
+    </member>
+    <member name="M:Aspose.Imaging.Sources.FileCreateSource.#ctor(System.String,System.Boolean)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.Sources.FileCreateSource" /> class.
+            </summary>
+      <param name="filePath">The file path to create.</param>
+      <param name="isTemporal">If set to <c>true</c> the created file will be temporal.</param>
+      <example>This example creates a new Image file at some disk location as specified by Source property of the BmpOptions instance. Several properties for BmpOptions instance are set before creating the actual image. Especially the Source property, that refers to the actual disk location in this case.<code>[C#]
+
+//Create an instance of BmpOptions and set its various properties
+Aspose.Imaging.ImageOptions.BmpOptions bmpOptions = new Aspose.Imaging.ImageOptions.BmpOptions();
+bmpOptions.BitsPerPixel = 24;
+
+//Create an instance of FileCreateSource and assign it as Source for the instance of BmpOptions
+//Second Boolean parameter determines if the file to be created IsTemporal or not
+bmpOptions.Source = new Aspose.Imaging.Sources.FileCreateSource(@"C:\temp\sample.bmp", false);
+
+//Create an instance of Image and initialize it with instance of BmpOptions by calling Create method
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(bmpOptions, 500, 500))
+{
+    //do some image processing
+
+    // save all changes
+    image.Save();
+}</code></example>
+    </member>
+    <member name="M:Aspose.Imaging.Sources.FileCreateSource.GetStreamContainer">
+      <summary>
+            Gets the stream container.
+            </summary>
+      <returns>the stream container.</returns>
+      <remarks>Use with caution. You will need to dispose the stream container after retrieval.</remarks>
+    </member>
+    <member name="P:Aspose.Imaging.Sources.FileCreateSource.FilePath">
+      <summary>
+            Gets the file path to create.
+            </summary>
+      <value>The file path to create.</value>
+    </member>
+    <member name="P:Aspose.Imaging.Sources.FileCreateSource.IsTemporal">
+      <summary>
+            Gets a value indicating whether file will be temporal.
+            </summary>
+      <value>
+        <c>true</c> if file will be temporal; otherwise, <c>false</c>.</value>
+    </member>
+    <member name="T:Aspose.Imaging.Sources.FileOpenSource">
+      <summary>
+            Represents a file source for opening.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.Sources.FileOpenSource.#ctor(System.String)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.Sources.FileOpenSource" /> class.
+            </summary>
+      <param name="filePath">The file path to open.</param>
+    </member>
+    <member name="M:Aspose.Imaging.Sources.FileOpenSource.GetStreamContainer">
+      <summary>
+            Gets the stream container.
+            </summary>
+      <returns>the stream container.</returns>
+      <remarks>Use with caution. You will need to dispose the stream container after retrieval.</remarks>
+    </member>
+    <member name="P:Aspose.Imaging.Sources.FileOpenSource.FilePath">
+      <summary>
+            Gets the file path to open.
+            </summary>
+      <value>The file path to open.</value>
+    </member>
+    <member name="P:Aspose.Imaging.Sources.FileOpenSource.IsTemporal">
+      <summary>
+            Gets a value indicating whether file will be temporal.
+            </summary>
+      <value>
+        <c>true</c> if file will be temporal; otherwise, <c>false</c>.</value>
+    </member>
+    <member name="T:Aspose.Imaging.Sources.NamespaceDoc">
+      <summary>
+            Namespace contains different stream sources which are suitable for input or output data flow.
+            </summary>
+    </member>
+    <member name="T:Aspose.Imaging.Sources.StreamSource">
+      <summary>
+            Represents a stream source.
+            </summary>
+      <example>This example uses Graphics class to create primitive shapes on the Image surface. To demonstrate the operation, the example creates a new Image in PNG format and draw primitive shapes on Image surface using Draw methods exposed by Graphics class<code>[C#]
+
+//Creates an instance of FileStream
+using (System.IO.FileStream stream = new System.IO.FileStream(@"C:\temp\output.png", System.IO.FileMode.Create))
+{
+    //Create an instance of PngOptions and set its various properties
+    Aspose.Imaging.ImageOptions.PngOptions pngOptions = new Aspose.Imaging.ImageOptions.PngOptions();
+        
+    //Set the Source for PngOptions
+    pngOptions.Source = new Aspose.Imaging.Sources.StreamSource(stream);
+
+    //Create an instance of Image 
+    using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(pngOptions, 500, 500))
+    {
+        //Create and initialize an instance of Graphics class
+        Aspose.Imaging.Graphics graphics = new Aspose.Imaging.Graphics(image);
+
+        //Clear Graphics surface
+        graphics.Clear(Color.Wheat);
+
+        //Draw an Arc by specifying the Pen object having Black color, 
+        //a Rectangle surrounding the Arc, Start Angle and Sweep Angle
+        graphics.DrawArc(new Pen(Color.Black, 2), new Rectangle(200, 200, 100, 200), 0, 300);
+
+        //Draw a Bezier by specifying the Pen object having Blue color and co-ordinate Points.
+        graphics.DrawBezier(new Pen(Color.Blue, 2), new Point(250, 100), new Point(300, 30), new Point(450, 100), new Point(235, 25));
+
+        //Draw a Curve by specifying the Pen object having Green color and an array of Points
+        graphics.DrawCurve(new Pen(Color.Green, 2), new[] { new Point(100, 200), new Point(100, 350), new Point(200, 450) });
+
+        //Draw an Ellipse using the Pen object and a surrounding Rectangle
+        graphics.DrawEllipse(new Pen(Color.Yellow, 2), new Rectangle(300, 300, 100, 100));
+
+        //Draw a Line 
+        graphics.DrawLine(new Pen(Color.Violet, 2), new Point(100, 100), new Point(200, 200));
+
+        //Draw a Pie segment
+        graphics.DrawPie(new Pen(Color.Silver, 2), new Rectangle(new Point(200, 20), new Size(200, 200)), 0, 45);
+
+        //Draw a Polygon by specifying the Pen object having Red color and an array of Points
+        graphics.DrawPolygon(new Pen(Color.Red, 2), new[] { new Point(20, 100), new Point(20, 200), new Point(220, 20) });
+
+        //Draw a Rectangle
+        graphics.DrawRectangle(new Pen(Color.Orange, 2), new Rectangle(new Point(250, 250), new Size(100, 100)));
+
+        //Create a SolidBrush object and set its various properties
+        Aspose.Imaging.Brushes.SolidBrush brush = new Aspose.Imaging.Brushes.SolidBrush();
+        brush.Color = Color.Purple;
+        brush.Opacity = 100;
+
+        //Draw a String using the SolidBrush object and Font, at specific Point
+        graphics.DrawString("This image is created by Aspose.Imaging API", new Font("Times New Roman", 16), brush, new PointF(50, 400));
+
+        // save all changes.
+        image.Save();
+    }
+}</code></example>
+    </member>
+    <member name="M:Aspose.Imaging.Sources.StreamSource.#ctor(System.IO.Stream)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.Sources.StreamSource" /> class.
+            </summary>
+      <param name="stream">The stream to open.</param>
+      <example>This example shows how to Loads Pixel information in an Array of Type Color, manipulates the array and set it back to the image. To perform these operations, this example creates a new Image file (in GIF format) uisng MemoryStream object.<code>[C#]
+
+//Create an instance of MemoryStream
+using (System.IO.MemoryStream stream = new System.IO.MemoryStream())
+{
+    //Create an instance of GifOptions and set its various properties including the Source property
+    Aspose.Imaging.ImageOptions.GifOptions gifOptions = new Aspose.Imaging.ImageOptions.GifOptions();
+    gifOptions.Source = new Aspose.Imaging.Sources.StreamSource(stream);
+
+    //Create an instance of Image
+    using (Aspose.Imaging.RasterImage image = (Aspose.Imaging.RasterImage)Aspose.Imaging.Image.Create(gifOptions, 500, 500))
+    {
+        //Get the pixels of image by specifying the area as image boundary
+        Aspose.Imaging.Color[] pixels = image.LoadPixels(image.Bounds);
+
+        //Loop over the Array and sets color of alrenative indexed pixel
+        for (int index = 0; index &lt; pixels.Length; index++)
+        {
+            if (index % 2 == 0)
+            {
+                //Set the indexed pixel color to yellow
+                pixels[index] = Aspose.Imaging.Color.Yellow;
+            }
+            else
+            {
+                //Set the indexed pixel color to blue
+                pixels[index] = Aspose.Imaging.Color.Blue;
+            }
+        }
+
+        //Apply the pixel changes to the image
+        image.SavePixels(image.Bounds, pixels);
+
+        // save all changes.
+        image.Save();
+    }
+
+    //Write MemoryStream to File
+    stream.WriteTo(new System.IO.FileStream(@"C:\temp\output.gif", System.IO.FileMode.CreateNew));
+}</code></example>
+    </member>
+    <member name="M:Aspose.Imaging.Sources.StreamSource.#ctor(System.IO.Stream,System.Boolean)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.Sources.StreamSource" /> class.
+            </summary>
+      <param name="stream">The stream to open.</param>
+      <param name="disposeStream">if set to <c>true</c> the stream will be disposed.</param>
+      <example>This example demonstrates the use of System.IO.Stream to Create a new Image file (a JPEG type)<code>[C#]
+
+//Creates an instance of JpegOptions and set its various properties
+Aspose.Imaging.ImageOptions.JpegOptions jpegOptions = new Aspose.Imaging.ImageOptions.JpegOptions();
+
+//Create an instance of System.IO.Stream
+System.IO.Stream stream = new System.IO.FileStream(@"C:\temp\sample.jpeg", System.IO.FileMode.Create);
+
+//Define the source property for the instance of JpegOptions
+//Second boolean parameter determins if the Stream is disposed once get out of scope
+jpegOptions.Source = new Aspose.Imaging.Sources.StreamSource(stream, true);
+
+//Creates an instance of Image and call Create method with JpegOptions as parameter to initialize the Image object   
+using (Aspose.Imaging.Image image = Aspose.Imaging.Image.Create(jpegOptions, 500, 500))
+{
+    //do some image processing
+}</code></example>
+    </member>
+    <member name="M:Aspose.Imaging.Sources.StreamSource.GetStreamContainer">
+      <summary>
+            Gets the stream container.
+            </summary>
+      <returns>the stream container.</returns>
+      <remarks>Use with caution. You will need to dispose the stream container after retrieval.</remarks>
+    </member>
+    <member name="P:Aspose.Imaging.Sources.Strea

@@ -1,0 +1,16 @@
+## Apache Xalan v2.7.2
+
+### Apache Xalan Notice
+<pre>
+
+    ======================================================================================
+    ==  NOTICE file corresponding to the section 4d of the Apache License, Version 2.0, ==
+    ==  in this case for the Apache Xalan distribution.                                 ==
+    ======================================================================================
+
+   This product includes software developed by
+   The Apache Software Foundation (http://www.apache.org/).
+
+   Specifically, we only include the XSLTC portion of the source from the Xalan distribution. 
+   The Xalan project has two processors: an interpretive one (Xalan Interpretive) and a 
+   compiled one (The XSLT Compiler (XSLTC)). We *on

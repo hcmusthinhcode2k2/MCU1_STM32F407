@@ -1,0 +1,5 @@
+N" settingAlias="FLCHSEL" alias="AN22"/>
+         <value>22</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="ADC1" registerAlias="ADFL3CON" settingAlias="FLCHSEL" alias="A

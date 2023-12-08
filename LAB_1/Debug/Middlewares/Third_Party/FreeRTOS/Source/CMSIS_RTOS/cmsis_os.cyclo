@@ -1,0 +1,28 @@
+           0x00144e          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(toupper.CH_o)
+ __c30_signature
+                  0x001454          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__errno_location.CH_o)
+ __c30_signature
+                  0x00145a          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__int_vsnprintf.CH_o)
+ __c30_signature
+                  0x001460          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__pop_float.CH_o)
+ __c30_signature
+                  0x001466          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-elf.a(__int_vfprintf.CH_o)
+ __c30_signature
+                  0x00146c          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(extendsfdf.CH_o)
+ __c30_signature
+                  0x001472          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(funpack.CH_o)
+ __c30_signature
+                  0x001478          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(mulsi3.CH_o)
+ __c30_signature
+                  0x00147e          0x6 c:/program files/microchip/xc16/v2.10/bin/bin/../../lib\libc99-pic30-elf.a(divmoddi3.CH_o)
+
+.nbss               0x1000         0x28
+ .nbss              0x1000          0xe build/default/production/mcc_generated_files/uart1.o
+                    0x100a                  _UART1_TxDefaultInterruptHandler
+                    0x100c                  _UART1_RxDefaultInterruptHandler
+ .nbss              0x100e          0x8 build/default/production/I2C_LCD/LCD_I2C.o
+ .nbss              0x1016          0x8 build/default/production/mcc_generated_files/adc1.o
+ .nbss              0x101e          0x6 build/default/production/mcc_generated_files/i2c1_driver.o
+                    0x101e                  _i2c1_driver_busCollisionISR
+                    0x1020                  _i2c1_driver_Masteri2cISR
+                    0x

@@ -1,0 +1,13 @@
+/**
+ * This file has no copyright assigned and is placed in the Public Domain.
+ * This file is part of the mingw-w64 runtime package.
+ * No warranty is given; refer to the file DISCLAIMER.PD within this package.
+ */
+#ifndef _WINWLX_
+#define _WINWLX_
+
+#define WLX_VERSION_1_0 (0X00010000)
+#define WLX_VERSION_1_1 (0X00010001)
+#define WLX_VERSION_1_2 (0X00010002)
+#define WLX_VERSION_1_3 (0X00010003)
+#define WL

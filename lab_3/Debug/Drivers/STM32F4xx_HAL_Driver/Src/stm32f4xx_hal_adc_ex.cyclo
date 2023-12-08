@@ -1,0 +1,44 @@
+TUS_TX_EMPTY;
+            break;
+        default:
+            break;
+    }
+
+    return status;    
+}
+
+uint8_t __attribute__((deprecated)) UART1_Peek(uint16_t offset)
+{
+    uint8_t *peek = rxHead + offset;
+    
+    while(peek > (rxQueue + UART1_CONFIG_RX_BYTEQ_LENGTH))
+    {
+        peek -= UART1_CONFIG_RX_BYTEQ_LENGTH;
+    }
+    
+    return *peek;
+}
+
+bool __attribute__((deprecated)) UART1_ReceiveBufferIsEmpty (void)
+{
+    return (UART1_RxDataAvailable() == 0);
+}
+
+bool __attribute__((deprecated)) UART1_TransmitBufferIsFull(void)
+{
+    return (UART1_TxDataAvailable() == 0);
+}
+
+uint32_t __attribute__((deprecated)) UART1_StatusGet (void)
+{
+    uint32_t statusReg = U1STAH;
+    return ((statusReg << 16 ) | U1STA);
+}
+
+unsigned int __attribute__((deprecated)) UART1_TransmitBufferSizeGet(void)
+{
+    if(UART1_TxDataAvailable() != 0)
+    { 
+        if(txHead > txTail)
+        {
+   

@@ -1,0 +1,8 @@
+    ULONG (WINAPI *Release)(IEnumCERTVIEWCOLUMN *This);
+      HRESULT (WINAPI *GetTypeInfoCount)(IEnumCERTVIEWCOLUMN *This,UINT *pctinfo);
+      HRESULT (WINAPI *GetTypeInfo)(IEnumCERTVIEWCOLUMN *This,UINT iTInfo,LCID lcid,ITypeInfo **ppTInfo);
+      HRESULT (WINAPI *GetIDsOfNames)(IEnumCERTVIEWCOLUMN *This,REFIID riid,LPOLESTR *rgszNames,UINT cNames,LCID lcid,DISPID *rgDispId);
+      HRESULT (WINAPI *Invoke)(IEnumCERTVIEWCOLUMN *This,DISPID dispIdMember,REFIID riid,LCID lcid,WORD wFlags,DISPPARAMS *pDispParams,VARIANT *pVarResult,EXCEPINFO *pExcepInfo,UINT *puArgErr);
+      HRESULT (WINAPI *Next)(IEnumCERTVIEWCOLUMN *This,LONG *pIndex);
+      HRESULT (WINAPI *GetName)(IEnumCERTVIEWCOLUMN *This,BSTR *pstrOut);
+      HRESULT (WINAPI *GetDisplayName)(IEnu

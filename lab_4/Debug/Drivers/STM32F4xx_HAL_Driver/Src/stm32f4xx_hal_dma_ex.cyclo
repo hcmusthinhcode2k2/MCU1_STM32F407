@@ -1,0 +1,7 @@
+"Username of the author of the issue."
+    authorUsername: String,
+    "Issues closed after this date."
+    closedAfter: Time,
+    "Issues closed before this date."
+    closedBefore: Time,
+    "Filter for confidential issues. If \"false\",

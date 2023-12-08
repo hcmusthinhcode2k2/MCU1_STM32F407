@@ -1,0 +1,12 @@
+1" registerAlias="ADCORE0H" settingAlias="ADCS" alias="216"/>
+         <value>108</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="ADC1" registerAlias="ADCORE0H" settingAlias="ADCS" alias="218"/>
+         <value>109</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="ADC1" registerAlias="ADCORE0H" settingAlias="ADCS" alias="22"/>
+         <value>11</value>
+      </entry>
+     

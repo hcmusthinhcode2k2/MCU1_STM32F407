@@ -1,0 +1,15 @@
+/**
+ * This file has no copyright assigned and is placed in the Public Domain.
+ * This file is part of the mingw-w64 runtime package.
+ * No warranty is given; refer to the file DISCLAIMER.PD within this package.
+ */
+#ifndef _INC_WINSXS
+#define _INC_WINSXS
+#if (_WIN32_WINNT >= 0x0600)
+
+typedef enum ASM_CMP_FLAGS {
+  ASM_CMPF_NAME               = 0x1,
+  ASM_CMPF_MAJOR_VERSION      = 0x2,
+  ASM_CMPF_MINOR_VERSION      = 0x4,
+  ASM_CMPF_BUILD_NUMBER       = 0x8,
+ 

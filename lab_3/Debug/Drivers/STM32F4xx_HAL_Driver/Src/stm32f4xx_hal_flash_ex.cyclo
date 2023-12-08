@@ -1,0 +1,9 @@
+   _tolower
+                  0x0011b4                  _toupper
+                  0x000722                  _write
+                  0x00174e                  build/default/production/mcc_generated_files/drivers/i2c_master.o:_do_I2C_DO_ACK
+                  0x00176c                  build/default/production/mcc_generated_files/drivers/i2c_master.o:_do_I2C_DO_ADDRESS_NACK
+                  0x001762                  build/default/production/mcc_generated_files/drivers/i2c_master.o:_do_I2C_DO_NACK_RESTART
+                  0x001758                  build/default/production/mcc_generated_files/drivers/i2c_master.o:_do_I2C_DO_NACK_STOP
+                  0x0016d2                  build/default/production/mcc_generated_files/drivers/i2c_master.o:_do_I2C_IDLE
+                  0x00173e                  build/default/production/mcc_generated_files/drivers/i2c_master.

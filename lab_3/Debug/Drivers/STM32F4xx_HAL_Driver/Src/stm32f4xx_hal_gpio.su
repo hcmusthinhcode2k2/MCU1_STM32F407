@@ -1,0 +1,12 @@
+     _UART1_ReadBuffer
+                  0x001b66                  _UART1_ReceiveBufferIsEmpty
+                  0x001bce                  _UART1_ReceiveBufferSizeGet
+                  0x001942                  _UART1_SetRxInterruptHandler
+                  0x001924                  _UART1_SetTxInterruptHandler
+                  0x001b86                  _UART1_StatusGet
+                  0x001b02                  _UART1_TransferStatusGet
+                  0x001b76                  _UART1_TransmitBufferIsFull
+                  0x001ba0                  _UART1_TransmitBufferSizeGet
+                  0x00198c                  _UART1_Write
+                  0x001ac8                  _UART1_WriteBuffer
+                  0x0003d

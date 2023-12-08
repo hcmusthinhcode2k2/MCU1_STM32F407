@@ -1,0 +1,7 @@
+ntry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="ADC1" registerAlias="ADTRIG3L" settingAlias="TRGSRC13" alias="SCCP2"/>
+         <value>21</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="ADC1" registerAlias="ADTRIG3L" settingAlias="TRGSRC13" alias="SCCP3"/>
+  

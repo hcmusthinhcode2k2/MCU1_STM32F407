@@ -1,0 +1,17 @@
+en ny fane.Der blev ikke fundet nogen Cast-destinationer. Har du brug for hjælp?TilgængeligTilslutter…Afbryder forbindelsen…Stop castKilden understøttes ikkeTilgængelig for bestemte videowebsitesSkærmen castesCaster fanePræsenterer ($1)Vil du optimere casting til fuld skærm?Se video i bedre kvalitet, og forlæng batteritiden. Der afspilles kun video på din Cast-kompatible skærm.Spørg ikke igenOptimerNej takUnderstøttelse af denne mulighed forsvinder snart. Brug $1, hvis du vil vise en fane frem.Denne valgmulighed understøttes ikke længere. Brug $1, hvis du vil vise en fane frem.Skærm $1Feedback til Google CastN/ADin feedback hjælper os med at forbedre Google Cast, og vi sætter pris på dit input.
+    Du kan få hjælp til problemer med fejlfinding ved at gå til
+    <a href="$1" target="_blank">
+    Hjælp</a>.Fortæl os, hvad der sker med Google Cast.Dit svarPåkrævetHvilken slags feedback, giver du?Angiv din feedback her:Oplysninger om spejlingskvalitetenVideostabilitetVideokvalitetLydkvalitetHvilket indhold eller hvilken webadresse var du i gang med at caste?Yderligere kommentarer:Vi sender dig muligvis en mail med en opdatering eller anmodning om flere oplysningerDin mailadresseMail (valgfri):Vil du slette denne feedback?FejlForslag til ny funktionVisningskvalitet for fane/skærmEnhedsregistreringAndetFryserRysterHakker af og tilProblemfriPerfektMeget dårligDårligAcceptabelGod – DVD-kvalitetGlimrende – HD-kvalitetUforståeligAcceptabel – FM-kvalitetGodSender feedback…Din feedback kunne ikke indsendes. Prøv igen senere.Tak for din feedback.Din feedback kunne ikke indsendes. Prøver igen…Cast- og enhedslogsAdvarsel! Detaljeret logging er aktiveret. Loggerne nedenfor indeholder muligvis webadresser eller andre følsomme oplysninger. Gennemse loggerne, så du er sikker på, at du gerne vil indsende disse oplysninger.Send <a href="">
+    fejlretningslogger</a> (anbefales)Send fejlretningslogger (anbefales)Din Chrome-version, version af operativsystemet, dine valgmuligheder for Google Cast-udvidelsen,
+    din effektivitetsstatistik for spejling og diagnostiske
+    logger for kommunikationskanaler bliver indsendt sammen med eventuelle oplysninger,
+    du vælger at medtage ovenfor. Denne feedback bruges til at diagnosticere problemer og
+    hjælper med at forbedre funktionen. Hvis du indsender personlige oplysninger
+    – uanset om det sker bevidst eller tilfældigt – beskyttes disse
+    oplysninger i overensstemmelse med vores privatlivspolitikker. Ved at indsende denne feedback
+    accepterer du, at Google kan bruge den feedback, som du indsender, til at
+    forbedre Google-produkter og -tjenester.Kan du se din Chromecast i
+    <a href="$1" target="_blank">
+    Google Home-appen</a>?JaNejJeg prøvede ikkeHar du installeret nogen særlig VPN-, proxy-, firewall- eller
+    NAS-software?Ved ikkeHvilket af følgende udsagn beskriver bedst dit netværk?Computer og Chromecast er på samme Wi-Fi-netværkComputer og Chromecast er på forskellige Wi-Fi-netværk (f.eks. 2,4 GHz
+    i forhold til 5 GHz)Computeren er tilsluttet via et kabel, mens Chromecast er tilsluttet et Wi-Fi-netværkCast til en enhed:Cast til en enhedLivetekstning (kun på engelsk)LivetekstningLivetekstning – $1Downloader… $1 %Talefilerne kan ikke downloades. Prøv igen senere.Talefilerne kan ikke installeres Din enhed skal opdateres. Genstart din enhed, og prøv igen.Global mediestyringVis liste over enhederSkjul liste over enhederStyr de medier, du casterRap

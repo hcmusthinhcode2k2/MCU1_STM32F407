@@ -1,0 +1,9 @@
+e="ADC1" registerAlias="ADFL2CON" settingAlias="FLCHSEL" alias="AN24"/>
+         <value>24</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="ADC1" registerAlias="ADFL2CON" settingAlias="FLCHSEL" alias="AN25"/>
+         <value>25</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="

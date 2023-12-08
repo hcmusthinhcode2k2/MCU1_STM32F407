@@ -1,0 +1,8 @@
+eName="ADC1" registerAlias="ADTRIG3H" settingAlias="TRGSRC14" alias="PWM7 Trigger2"/>
+         <value>17</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="ADC1" registerAlias="ADTRIG3H" settingAlias="TRGSRC14" alias="PWM8 Trigger1"/>
+         <value>18</value>
+      </entry>
+      <entry>

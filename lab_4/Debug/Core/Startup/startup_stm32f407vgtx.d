@@ -1,0 +1,1 @@
+="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="ADC1" registerAlias="A

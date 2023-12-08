@@ -1,0 +1,45 @@
+E7, using LATE7.
+
+  @Description
+    Toggles the GPIO pin, RE7, using LATE7.
+
+  @Preconditions
+    The RE7 must be set to an output.
+
+  @Returns
+    None.
+
+  @Param
+    None.
+
+  @Example
+    <code>
+    // Toggle RE7
+    S1_Toggle();
+    </code>
+
+*/
+#define S1_Toggle()           (_LATE7 ^= 1)
+/**
+  @Summary
+    Reads the value of the GPIO pin, RE7.
+
+  @Description
+    Reads the value of the GPIO pin, RE7.
+
+  @Preconditions
+    None.
+
+  @Returns
+    None.
+
+  @Param
+    None.
+
+  @Example
+    <code>
+    uint16_t portValue;
+
+    // Read RE7
+    postValue = S1_GetValue();
+    </code

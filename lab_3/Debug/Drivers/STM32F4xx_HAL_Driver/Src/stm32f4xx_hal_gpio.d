@@ -1,0 +1,52 @@
+002bfc                  ___delay32
+                  0x02bf00                  __FSEC.sec
+
+External Symbols in Program Memory (by name):
+
+                  0x0023fe                  _ADC1_Core0PowerEnable
+                  0x002414                  _ADC1_Core1PowerEnable
+                  0x002348                  _ADC1_Initialize
+                  0x002446                  _ADC1_SetCommonInterruptHandler
+                  0x002476                  _ADC1_Setchannel_AN12InterruptHandler
+                  0x0024aa                  _ADC1_Setchannel_AN24InterruptHandler
+                  0x0024be                  _ADC1_Setchannel_AN25InterruptHandler
+                  0x00242a                  _ADC1_SharedCorePowerEnable
+                  0x002aca                  _CLOCK_AuxPllLockStatusGet
+                  0x002a74                  _CLOCK_Initialize
+                  0x002b86                  _EXT_INT_Initialize
+                  0x002b6e                  _EX_INT0_SetInterrptHandler
+                  0x002b7a                  _EX_INT1_SetInterrptHandler
+                  0x00297a                  _INTERRUPT_Initialize
+                  0x001de4                  _LCD_I2C_Init
+                  0x001db6                  _LCD_I2C_backlight
+                  0x001dc8                  _LCD_I2C_backlightToggle
+                  0x001ce0                  _LCD_I2C_clear
+                  0x001cd2                  _LCD_I2C_command
+                  0x001d86                  _LCD_I2C_display
+                  0x001d10                  _LCD_I2C_home
+                  0x001da6                  _LCD_I2C_noBacklight
+                  0x001f28                  _LCD_I2C_print
+                  0x001d40                  _LCD_I2C_setCursor
+                  0x001d98                  _LCD_I2C_write
+                  0x0024ca                  _PIN_MANAGER_Initialize
+                  0x0025a6                  _RB2_SetIOCInterruptHandler
+                  0x002596                  _RB2_SetInterruptHandler
+                  0x002712                  _RESET_CauseClearAll
+                  0x002606                  _RESET_GetCause
+                  0x002ae2                  _RPR0521RS_I2C_Init
+                  0x0025c2                  _S1_SetIOCInterruptHandler
+                  0x0025b2                  _S1_SetInterruptHandler
+                  0x0025fa                  _S2_SetIOCInterruptHandler
+                  0x0025ea                  _S2_SetInterruptHandler
+                  0x0025de                  _S3_SetIOCInterruptHandler
+                  0x0025ce                  _S3_SetInterruptHandler
+                  0x002bba                  _SYSTEM_Initialize
+                  0x0028fa                  _SystemTick_Init
+                  0x002878                  _TMR1_Counter16BitGet
+                  0x002866                  _TMR1_Counter16BitSet
+                  0x0028b0                  _TMR1_GetElapsedThenClear
+                  0x002828                  _TMR1_Initialize
+                  0x00285e                  _TMR1_Period16BitGet
+                  0x00284c                  _TMR1_Period16BitSet
+                  0x002886                  _TMR1_SetInterruptHandler
+                  0x0028d4               

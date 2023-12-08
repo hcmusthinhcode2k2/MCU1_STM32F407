@@ -1,0 +1,31 @@
+  
+FDMTCNTL         0x02bf34           0x000002  
+FDMTCNTH         0x02bf38           0x000002  
+FDMT             0x02bf3c           0x000002  
+FDEVOPT          0x02bf40           0x000002  
+FALTREG          0x02bf44           0x000002  
+FBTSEQ           0x02bffc           0x000002  
+*default*        0x000000           0xffffffff  
+
+Linker script and memory map
+
+LOAD build/default/production/I2C_LCD/LCD_I2C.o
+LOAD build/default/production/I2C_RPR0521RS/RPR0521RS_I2C.o
+LOAD build/default/production/mcc_generated_files/drivers/i2c_master.o
+LOAD build/default/production/mcc_generated_files/drivers/i2c_simple_master.o
+LOAD build/default/production/mcc_generated_files/drivers/i2c_types.o
+LOAD build/default/production/mcc_generated_files/clock.o
+LOAD build/default/production/mcc_generated_files/reset.o
+LOAD build/default/production/mcc_generated_files/system.o
+LOAD build/default/production/mcc_generated_files/traps.o
+LOAD build/default/production/mcc_generated_files/interrupt_manager.o
+LOAD build/default/production/mcc_generated_files/pin_manager.o
+LOAD build/default/production/mcc_generated_files/i2c1_driver.o
+LOAD build/default/production/mcc_generated_files/mcc.o
+LOAD build/default/production/mcc_generated_files/adc1.o
+LOAD build/default/production/mcc_generated_files/uart1.o
+LOAD build/default/production/mcc_generated_files/tmr1.o
+LOAD build/default/production/mcc_generated_files/ext_int.o
+LOAD build/default/production/stick/SystemTick.o
+LOAD build/default/production/main.o
+                    0x0001                  __MPLAB_

@@ -1,0 +1,9 @@
+core.tokenManager.OptionKey" moduleName="ADC1" registerAlias="ADCMP3CON" settingAlias="CHNL" alias="AN17"/>
+         <value>17</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="ADC1" registerAlias="ADCMP3CON" settingAlias="CHNL" alias="AN18"/>
+         <value>18</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="ADC1" registerAli

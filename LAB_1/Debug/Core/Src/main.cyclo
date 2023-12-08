@@ -1,0 +1,6 @@
+ADC1" registerAlias="ADTRIG5H" settingAlias="TRGSRC22" alias="MCCP9"/>
+         <value>27</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.OptionKey" moduleName="ADC1" registerAlias="ADTRIG5H" settingAlias="TRGSRC22" alias="None"/>
+         <value>0</val

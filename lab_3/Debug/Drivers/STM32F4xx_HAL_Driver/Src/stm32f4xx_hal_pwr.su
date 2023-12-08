@@ -1,0 +1,21 @@
+        build/default/production/mcc_generated_files/drivers/i2c_simple_master.o:_rd1RegCompleteHandler
+                  0x0021e2                  _i2c_read1ByteRegister
+                  0x002234                  build/default/production/mcc_generated_files/drivers/i2c_simple_master.o:_rd2RegCompleteHandler
+                  0x00224a                  _i2c_read2ByteRegister
+                  0x002282                  build/default/production/mcc_generated_files/drivers/i2c_simple_master.o:_wr2RegCompleteHandler
+                  0x002298                  _i2c_write2ByteRegister
+                  0x0022cc                  build/default/production/mcc_generated_files/drivers/i2c_simple_master.o:_rdBlkRegCompleteHandler
+                  0x0022e6                  _i2c_readDataBlock
+                  0x002322                  _i2c_readNBytes
+                  0x002348                  _ADC1_Initialize
+                  0x0023fe                  _ADC1_Core0PowerEnable
+                  0x002414                  _ADC1_Core1PowerEnable
+                  0x00242a                  _ADC1_SharedCorePowerEnable
+                  0x002446                  _ADC1_SetCommonInterruptHandler
+                  0x002476                  _ADC1_Setchannel_AN12InterruptHandler
+                  0x0024aa                  _ADC1_Setchannel_AN24InterruptHandler
+                  0x0024be                  _ADC1_Setchannel_AN25InterruptHandler
+                  0x0024ca                  _PIN_MANAGER_Initialize
+                  0x002596                  _RB2_SetInterruptHandler
+                  0x0025a6                  _RB2_SetIOCInterruptHandler
+       

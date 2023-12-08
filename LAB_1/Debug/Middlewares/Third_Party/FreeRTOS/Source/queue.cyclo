@@ -1,0 +1,15 @@
+driver_isRead
+                  0x002018                  _i2c1_driver_clearBusCollision
+                  0x002020                  _i2c1_driver_enableStartIRQ
+                  0x002028                  _i2c1_driver_disableStartIRQ
+                  0x002030                  _i2c1_driver_enableStopIRQ
+                  0x002038                  _i2c1_driver_disableStopIRQ
+                  0x002040                  _i2c1_driver_setBusCollisionISR
+                  0x00204c                  _i2c1_driver_setMasterI2cISR
+                  0x002058                  _i2c1_driver_setSlaveI2cISR
+ .text            0x002064        0x1f2 build/default/production/mcc_generated_files/drivers/i2c_simple_master.o
+                  0x002064                  build/default/production/mcc_generated_files/drivers/i2c_simple_master.o:_wr1RegCompleteHandler
+                  0x00207a                  _i2c_write1ByteRegister
+                  0x0020ae                  _i2c_writeNBytes
+                  0x0020da                  build/default/production/mcc_generated_files/drivers/i2c_simple_master.o:_rd1RegCompleteHandler
+                  0x0020f0                  _

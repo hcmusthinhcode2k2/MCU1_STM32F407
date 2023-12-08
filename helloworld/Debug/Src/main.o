@@ -1,0 +1,1092 @@
+</member>
+    <member name="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusEndContainer">
+      <summary>
+            The EmfPlusEndContainer record closes a graphics state container that was previously opened by a begin container operation.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusEndContainer.#ctor(Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRecord)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusEndContainer" /> class.
+            </summary>
+      <param name="source">The source.</param>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusEndContainer.StackIndex">
+      <summary>
+            Gets or sets a 32-bit unsigned integer that specifies the index of a graphics state
+            container. The index MUST must match the value associated with a graphics state container
+            opened by a previous EmfPlusBeginContainer (section 2.3.7.1) or
+            EmfPlusBeginContainerNoParams record (section 2.3.7.2).
+            </summary>
+      <value>
+            The index of the stack.
+            </value>
+    </member>
+    <member name="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusEndOfFile">
+      <summary>
+            The EmfPlusEndOfFile record specifies the end of EMF+ data in the metafile.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusEndOfFile.#ctor(Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRecord)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusEndOfFile" /> class.
+            </summary>
+      <param name="source">The source.</param>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusEndOfFile.Flags">
+      <summary>
+            Gets or sets a 16-bit unsigned integer that is not used. This field SHOULD be set to zero
+            and MUST be ignored upon receipt
+            </summary>
+      <value>
+            The flags.
+            </value>
+      <exception cref="T:System.ArgumentOutOfRangeException">value</exception>
+    </member>
+    <member name="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillClosedCurve">
+      <summary>
+            The EmfPlusFillClosedCurve record specifies filling the interior of a closed cardinal spline
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillClosedCurve.#ctor(Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRecord)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillClosedCurve" /> class.
+            </summary>
+      <param name="source">The source.</param>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillClosedCurve.IsColor">
+      <summary>
+            Gets or sets a value indicating whether this instance is color.
+            If set, BrushId specifies a color as an EmfPlusARGB object (section 2.2.2.1).
+            If clear, BrushId contains the index of an EmfPlusBrush object 
+            (section 2.2.1.1) in the EMF+ Object Table.
+            </summary>
+      <value>
+        <c>true</c> if this instance is color; otherwise, <c>false</c>.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillClosedCurve.Compressed">
+      <summary>
+            Gets or sets a value indicating whether this <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillClosedCurve" /> is compressed.
+            This bit indicates whether the PointData field specifies compressed data.
+            If set, PointData specifies absolute locations in the coordinate space with 16-bit 
+            integer coordinates. If clear, PointData specifies absolute locations in the 
+            coordinate space with 32-bit floating-point coordinates.
+            ----------------------
+            A "winding" fill operation fills areas according to the "even-odd parity" rule. 
+            According to this rule, a test point can be determined to be inside or outside a 
+            closed curve as follows: Draw a line from the test point to a point that is distant 
+            from the curve. If that line crosses the curve an odd number of times, the test 
+            point is inside the curve; otherwise, the test point is outside the curve.
+            ---------------------
+            An "alternate" fill operation fills areas according to the "non-zero" rule.
+             According to this rule, a test point can be determined to be inside or outside 
+            a closed curve as follows: Draw a line from a test point to a point that is 
+            distant from the curve. Count the number of times the curve crosses the test 
+            line from left to right, and count the number of times the curve crosses the 
+            test line from right to left. If those two numbers are the same, the test point 
+            is outside the curve; otherwise, the test point is inside the curve.
+            </summary>
+      <value>
+        <c>true</c> if compressed; otherwise, <c>false</c>.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillClosedCurve.Winding">
+      <summary>
+            Gets or sets a value indicating whether this <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillClosedCurve" /> is winding.
+            This bit indicates how to perform the fill operation.
+            If set, the fill is a "winding" fill. If clear, the fill is an "alternate" fill.
+            </summary>
+      <value>
+        <c>true</c> if winding; otherwise, <c>false</c>.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillClosedCurve.Relative">
+      <summary>
+            Gets or sets a value indicating whether this <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillClosedCurve" /> is relative.
+            This bit indicates whether the PointData field specifies relative or absolute locations.
+            If set, each element in PointData specifies a location in the coordinate space that is
+            relative to the location specified by the previous element in the array. In the case 
+            of the first element in PointData, a previous location at coordinates (0,0) is assumed. 
+            If clear, PointData specifies absolute locations according to the C flag.
+            Note If this flag is set, the C flag (above) is undefined and MUST be ignored.
+            </summary>
+      <value>
+        <c>true</c> if relative; otherwise, <c>false</c>.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillClosedCurve.BrushId">
+      <summary>
+            Gets or sets the brush identifier
+            A 32-bit unsigned integer that specifies the EmfPlusBrush, the content of which is 
+            determined by the S bit in the Flags field. This brush is used to fill the interior 
+            of the closed cardinal spline.
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillClosedCurve.Tension">
+      <summary>
+            Gets or sets the tension
+            A 32-bit floating point value that specifies how tightly the spline bends as it passes 
+            through the points. A value of 0.0 specifies that the spline is a sequence of straight 
+            lines. As the value increases, the curve becomes more rounded. For more information, 
+            see [SPLINE77] and [PETZOLD].
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillClosedCurve.PointData">
+      <summary>
+            Gets or sets the point data
+            An array of Count points that specify the endpoints of the lines that define the spline. 
+            In a closed cardinal spline, the curve continues through the last point in the PointData 
+            array and connects with the first point in the array
+            </summary>
+    </member>
+    <member name="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillEllipse">
+      <summary>
+            The EmfPlusFillEllipse record specifies filling the interior of an ellipse
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillEllipse.#ctor(Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRecord)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillEllipse" /> class.
+            </summary>
+      <param name="source">The source.</param>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillEllipse.IsColor">
+      <summary>
+            Gets or sets a value indicating whether this instance is color.
+            If set, BrushId specifies a color as an EmfPlusARGB object (section 2.2.2.1).
+            If clear, BrushId contains the index of an EmfPlusBrush object 
+            (section 2.2.1.1) in the EMF+ Object Table.
+            </summary>
+      <value>
+        <c>true</c> if this instance is color; otherwise, <c>false</c>.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillEllipse.IsCompressed">
+      <summary>
+            Gets or sets a value indicating whether this instance is compressed.
+            If set, RectData contains an EmfPlusRect object (section 2.2.2.38). 
+            If clear, RectData contains an EmfPlusRectF object (section 2.2.2.39).
+            </summary>
+      <value>
+        <c>true</c> if this instance is compressed; otherwise, <c>false</c>.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillEllipse.BrushId">
+      <summary>
+            Gets or sets the brush identifier
+            A 32-bit unsigned integer that specifies the brush, the content of which
+            is determined by the S bit in the Flags field. This definition is used 
+            to fill the interior of the ellipse
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillEllipse.RectData">
+      <summary>
+            Gets or sets the rect data
+            Either an EmfPlusRect or EmfPlusRectF object that defines the bounding box of the ellipse
+            </summary>
+    </member>
+    <member name="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillPath">
+      <summary>
+            Fill path record
+            FLAGS:
+            16-bit unsigned integer that provides information about how the operation is to be performed,
+            and about the structure of the record.
+            0 1 2 3 4 5 6 7 8 9 1 0 1 2 3 4 5 6 7 8 9 2 0 1 2 3 4 5 6 7 8 9 3 0 1
+            S X X X X X X X |   ObjectId    |
+            S (1 bit): This bit indicates the type of data in the BrushId field.
+            If set, BrushId specifies a color as an EmfPlusARGB object (section 2.2.2.1). If clear, BrushId contains the index of an EmfPlusBrush object (section 2.2.1.1) in the EMF+ Object Table.
+            X (1 bit): Reserved and MUST be ignored.
+            ObjectId (1 byte): The index of the EmfPlusPath object (section 2.2.1.6) to fill, in the EMF+ Object Table. The value MUST be zero to 63, inclusive.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillPath.#ctor(Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRecord)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillPath" /> class.
+            </summary>
+      <param name="source">The source.</param>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillPath.IsColor">
+      <summary>
+            Gets or sets a value indicating whether this instance is color.
+            If set, BrushId specifies a color as an EmfPlusARGB object (section 2.2.2.1). If clear,
+            BrushId contains the index of an EmfPlusBrush object (section 2.2.1.1) in the EMF+ Object Table
+            </summary>
+      <value>
+        <c>true</c> if this instance is color; otherwise, <c>false</c>.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillPath.ObjectId">
+      <summary>
+            Gets or sets the object identifier.
+            The index of the EmfPlusPath object (section 2.2.1.6) to fill, in the
+            EMF+ Object Table. The value MUST be zero to 63, inclusive.
+            </summary>
+      <value>
+            The object identifier.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillPath.BrushId">
+      <summary>
+            Gets or sets the Brush ID
+            A 32-bit unsigned integer that defines the brush, the content of which is determined
+            by the S bit in the Flags field.
+            </summary>
+    </member>
+    <member name="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillPie">
+      <summary>
+               The EmfPlusFillPie record specifies filling a section of the interior of an ellipse
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillPie.#ctor(Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRecord)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillPie" /> class.
+            </summary>
+      <param name="source">The source.</param>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillPie.Compressed">
+      <summary>
+            Gets or sets a value indicating whether the PointData is compressed.
+            If set, RectData contains an EmfPlusRect object (section 2.2.2.38).
+            If clear, RectData contains an EmfPlusRectF object (section 2.2.2.39).
+            </summary>
+      <value>
+        <c>true</c> if compressed; otherwise, <c>false</c>.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillPie.IsColor">
+      <summary>
+            Gets or sets a value indicating whether this instance is color.
+            If set, BrushId specifies a color as an EmfPlusARGB object (section 2.2.2.1). 
+            If clear, BrushId contains the index of an EmfPlusBrush object (section 2.2.1.1) in the EMF+ Object Table.
+            </summary>
+      <value>
+        <c>true</c> if this instance is color; otherwise, <c>false</c>.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillPie.StartAngle">
+      <summary>
+            Gets or sets the start angle
+            A 32-bit, non-negative floating-point value that specifies the angle between the 
+            x-axis and the starting point of the pie wedge. Any value is acceptable, but it 
+            MUST be interpreted modulo 360, with the result that is used being in the range 
+            0.0 inclusive to 360.0 exclusive.
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillPie.SweepAngle">
+      <summary>
+            Gets or sets the sweep angle
+            A 32-bit floating-point value that specifies the extent of the arc that defines 
+            the pie wedge to draw, as an angle in degrees measured from the starting point 
+            defined by the StartAngle value. Any value is acceptable, but it MUST be clamped 
+            to -360.0 to 360.0 inclusive. A positive value indicates that the sweep is defined 
+            in a clockwise direction, and a negative value indicates that the sweep is defined 
+            in a counter-clockwise direction.
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillPie.RectData">
+      <summary>
+            Gets or sets the rectangle datas
+            Either an EmfPlusRect or EmfPlusRectF object that defines the bounding box of the 
+            ellipse that contains the pie wedge. This rectangle defines the position, size, 
+            and shape of the pie. The type of object in this field is specified by the value 
+            of the Flags field.
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillPie.BrushId">
+      <summary>
+            Gets or sets the brush identifier
+            A 32-bit unsigned integer that defines the brush, the content of which 
+            is determined by the S bit in the Flags field.
+            </summary>
+    </member>
+    <member name="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillPolygon">
+      <summary>
+            The EmfPlusFillPolygon record specifies filling the interior of a polygon.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillPolygon.#ctor(Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRecord)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillPolygon" /> class.
+            </summary>
+      <param name="source">The source.</param>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillPolygon.IsColor">
+      <summary>
+            Gets or sets a value indicating whether this instance is color.
+            If set, BrushId specifies a color as an EmfPlusARGB object (section 2.2.2.1). 
+            If clear, BrushId contains the index of an EmfPlusBrush object (section 2.2.1.1) in the EMF+ Object Table.
+            </summary>
+      <value>
+        <c>true</c> if this instance is color; otherwise, <c>false</c>.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillPolygon.IsCompressed">
+      <summary>
+            Gets or sets a value indicating whether this instance is compressed.
+            If set, PointData specifies absolute locations in the coordinate space with 16-bit 
+            integer coordinates. If clear, PointData specifies absolute locations in the coordinate 
+            space with 32-bit floating-point coordinates
+            </summary>
+      <value>
+        <c>true</c> if this instance is compressed; otherwise, <c>false</c>.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillPolygon.IsRelative">
+      <summary>
+            Gets or sets a value indicating whether this instance is relative.
+            If set, each element in PointData specifies a location in the coordinate 
+            space that is relative to the location specified by the previous element 
+            in the array. In the case of the first element in PointData, a previous 
+            location at coordinates (0,0) is assumed. If clear, PointData specifies 
+            absolute locations according to the C flag
+            </summary>
+      <value>
+        <c>true</c> if this instance is relative; otherwise, <c>false</c>.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillPolygon.BrushId">
+      <summary>
+            Gets or sets the brush identifier
+            A 32-bit unsigned integer that defines the brush, the content 
+            of which is determined by the S bit in the Flags field.
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillPolygon.PointData">
+      <summary>
+            Gets or sets the point data
+            An array of Count points that define the vertices of the polygon. 
+            The first two points in the array specify the first side of the polygon. 
+            Each additional point specifies a new side, the vertices of which 
+            include the point and the previous point. If the last point and the 
+            first point do not coincide, they specify the last side of the polygon.
+            </summary>
+    </member>
+    <member name="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillRects">
+      <summary>
+            The EmfPlusFillRects record specifies filling the interiors of a series of rectangles
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillRects.#ctor(Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRecord)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillRects" /> class.
+            </summary>
+      <param name="source">The source.</param>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillRects.IsColor">
+      <summary>
+            Gets or sets a value indicating whether this instance is color.
+            If set, BrushId specifies a color as an EmfPlusARGB object (section 2.2.2.1).
+            If clear, BrushId contains the index of an EmfPlusBrush object (section 2.2.1.1) in the EMF+ Object Table
+            </summary>
+      <value>
+        <c>true</c> if this instance is color; otherwise, <c>false</c>.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillRects.Compressed">
+      <summary>
+            Gets or sets a value indicating whether this <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillRects" /> is compressed.
+            If set, RectData contains an EmfPlusRect object (section 2.2.2.38). If clear, RectData
+             contains an EmfPlusRectF object (section 2.2.2.39) object
+            </summary>
+      <value>
+        <c>true</c> if compressed; otherwise, <c>false</c>.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillRects.BrushId">
+      <summary>
+             Gets or sets the brush identifier
+            A 32-bit unsigned integer that defines the brush, the content of which is determined by the S bit in the Flags field.
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillRects.RectData">
+      <summary>
+             Gets or sets the rectangle data
+            An array of either an EmfPlusRect or EmfPlusRectF objects of Count length that defines the rectangle data.
+            </summary>
+    </member>
+    <member name="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillRegion">
+      <summary>
+            The EmfPlusFillRegion record specifies filling the interior of a graphics region
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillRegion.#ctor(Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRecord)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillRegion" /> class.
+            </summary>
+      <param name="source">The source.</param>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillRegion.ObjectId">
+      <summary>
+            Gets or sets the object identifier.
+            The index of the EmfPlusRegion object (section 2.2.1.8) to fill, in the
+            EMF+ Object Table. The value MUST be zero to 63, inclusive.
+            </summary>
+      <value>
+            The object identifier.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillRegion.IsColor">
+      <summary>
+            Gets or sets a value indicating whether this instance is color.
+            If set, BrushId specifies a color as an EmfPlusARGB object (section 2.2.2.1). 
+            If clear, BrushId contains the index of an EmfPlusBrush object (section 2.2.1.1) in the EMF+ Object Table.
+            </summary>
+      <value>
+        <c>true</c> if this instance is color; otherwise, <c>false</c>.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusFillRegion.BrushId">
+      <summary>
+            Gets or sets the brush identifier
+            A 32-bit unsigned integer that defines the brush, the content of which is determined by the S bit in the Flags field.
+            </summary>
+    </member>
+    <member name="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusGetDc">
+      <summary>
+            The EmfPlusGetDC record specifies that subsequent EMF records encountered in the metafile SHOULD be processed.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusGetDc.#ctor(Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRecord)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusGetDc" /> class.
+            </summary>
+      <param name="source">The source.</param>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusGetDc.Flags">
+      <summary>
+            Gets or sets a 16-bit unsigned integer that is not used. This field SHOULD be set to zero
+            and MUST be ignored upon receipt
+            </summary>
+      <value>
+            The flags.
+            </value>
+      <exception cref="T:System.ArgumentOutOfRangeException">value</exception>
+    </member>
+    <member name="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusHeader">
+      <summary>
+            The EmfPlusHeader record specifies the start of EMF+ data in the metafile.
+            The EmfPlusHeader record MUST be embedded in an EMF EMR_COMMENT_EMFPLUS record,
+             which MUST be the record immediately following the EMF header in the metafile. 
+            The EMR_COMMENT_EMFPLUS record is specified in [MS-EMF] section 2.3.3.2.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusHeader.#ctor(Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRecord)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusHeader" /> class.
+            </summary>
+      <param name="source">The source.</param>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusHeader.DualMode">
+      <summary>
+            Gets or sets a value indicating whether [dual mode].
+            If set, this flag indicates that this metafile is "dual-mode", which means
+             that it contains two sets of records, each of which completely specifies 
+            the graphics content. If clear, the graphics content is specified by EMF+ 
+            records, and possibly EMF records that are preceded by an EmfPlusGetDC record. 
+            If this flag is set, EMF records alone SHOULD suffice to define the 
+            graphics content. Note that whether the "dual-mode" flag is set or not, some 
+            EMF records are always present, namely EMF control records and the EMF records 
+            that contain EMF+ records. EMF control records are specified in [MS-EMF] 
+            section 2.3.4.
+            </summary>
+      <value>
+        <c>true</c> if [dual mode]; otherwise, <c>false</c>.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusHeader.VideoDisplay">
+      <summary>
+            Gets or sets a value indicating whether video display.
+            if set, this flag indicates that the metafile was recorded with a reference device
+            context for a video display. If clear, the metafile was recorded with a reference device
+            context for a printer.
+            </summary>
+      <value>
+        <c>true</c> if [video display]; otherwise, <c>false</c>.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusHeader.EmfPlusFlags">
+      <summary>
+            Gets or sets the EMF plus flags.
+            A 32-bit unsigned integer that contains information about how this metafile was recorded.
+            if 31-st bit of the field is set, this flag indicates that the metafile was recorded with 
+            a reference device context for a video display. If clear, the metafile was recorded with
+             a reference device context for a printer.
+            </summary>
+      <value>
+            The EMF plus flags.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusHeader.LogicalDpiX">
+      <summary>
+            Gets or sets the logical dpi x.
+            A 32-bit unsigned integer that specifies the horizontal resolution for which the metafile 
+            was recorded, in units of pixels per inch.
+            </summary>
+      <value>
+            The logical dpi x.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusHeader.LogicalDpiY">
+      <summary>
+            Gets or sets the logical dpi y.
+            A 32-bit unsigned integer that specifies the vertical resolution for which the metafile 
+            was recorded, in units of lines per inch
+            </summary>
+      <value>
+            The logical dpi y.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusHeader.Version">
+      <summary>
+            Gets or sets the version.
+            An EmfPlusGraphicsVersion object (section 2.2.2.19) that specifies the version of operating
+            system graphics that was used to create this metafile.
+            </summary>
+      <value>
+            The version.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusHeader.IsValid">
+      <summary>
+            Gets a value indicating whether this instance is valid.
+            </summary>
+      <value>
+        <c>true</c> if this instance is valid; otherwise, <c>false</c>.
+            </value>
+    </member>
+    <member name="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusMultiplyWorldTransform">
+      <summary>
+            The EmfPlusMultiplyWorldTransform record multiplies the current world space transform by a
+            specified transform matrix.
+            </summary>
+    </member>
+    <member name="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusTerminalServerRecordType">
+      <summary>
+            The Terminal Server Record Types specify graphics processing on a terminal server. The following
+            are EMF+ terminal server record types.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusTerminalServerRecordType.#ctor(Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRecord)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusTerminalServerRecordType" /> class.
+            </summary>
+      <param name="source">The source.</param>
+    </member>
+    <member name="M:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusMultiplyWorldTransform.#ctor(Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRecord)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusMultiplyWorldTransform" /> class.
+            </summary>
+      <param name="source">The source.</param>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusMultiplyWorldTransform.PostMultipliedMatrix">
+      <summary>
+            Gets a value indicating whether [post multiplied matrix].
+            If set, the transform matrix should be post-multipled. If clear, it should be premultiplied.
+            </summary>
+      <value>
+        <c>true</c> if [post multiplied matrix]; otherwise, <c>false</c>.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusMultiplyWorldTransform.MatrixData">
+      <summary>
+            Gets or sets an EmfPlusTransformMatrix object (section 2.2.2.47) that defines the multiplication matrix.
+            </summary>
+      <value>
+            The matrix data.
+            </value>
+    </member>
+    <member name="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusObject">
+      <summary>
+            The EmfPlusObject record specifies an object for use in graphics operations. The object definition
+            can span multiple records, which is indicated by the value of the Flags field.
+            </summary>
+      <remarks>
+            The EmfPlusObject record is generic; it is used for all types of objects. Values that are specific to
+            particular object types are contained in the ObjectData field. A conceptual model for managing
+            graphics objects is described in Managing Graphics Objects (section 3.1.2).
+            </remarks>
+    </member>
+    <member name="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusObjectRecordType">
+      <summary>
+            The Object Record Types define reusable graphics objects. 
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusObjectRecordType.#ctor(Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRecord)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusObjectRecordType" /> class.
+            </summary>
+      <param name="source">The source.</param>
+    </member>
+    <member name="M:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusObject.#ctor(Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRecord)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusObject" /> class.
+            </summary>
+      <param name="source">The source.</param>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusObject.IsContinuable">
+      <summary>
+            Gets or sets a value indicating whether this instance is continuable.
+            Indicates that the object definition continues on in the next EmfPlusObject
+            record. This flag is never set in the final record that defines the object.
+            </summary>
+      <value>
+        <c>true</c> if this instance is compressed; otherwise, <c>false</c>.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusObject.ObjectType">
+      <summary>
+            Gets or sets the type of the object.
+            </summary>
+      <value>
+            The type of the object.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusObject.ObjectId">
+      <summary>
+            Gets or sets the object identifier.
+            The index in the EMF+ Object Table to associate with the object
+            created by this record. The value MUST be zero to 63, inclusive.
+            </summary>
+      <value>
+            The object identifier.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusObject.TotalObjectSize">
+      <summary>
+            Gets or sets the total size of the object.
+            If the record is continuable, when the continue bit is set, this field
+            will be present. Continuing objects have multiple EMF+ records starting with
+            EmfPlusContineudObjectRecord. Each EmfPlusContinuedObjectRecord will contain a
+            TotalObjectSize. Once TotalObjectSize number of bytes has been read, the next EMF+
+            record will not be treated as part of the continuing object.
+            </summary>
+      <value>
+            The total size of the object.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusObject.ObjectData">
+      <summary>
+            Gets or sets an array of bytes that contains data for the type of object specified in
+            the Flags field. The content and format of the data can be different for each object type. See
+            the individual object definitions in section 2.2.1 for additional information.
+            </summary>
+      <value>
+            The object data.
+            </value>
+    </member>
+    <member name="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusOffsetClip">
+      <summary>
+            The EmfPlusOffsetClip record applies a translation transform on the current clipping region for the world space.
+            The new current clipping region is set to the result of the translation transform.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusOffsetClip.#ctor(Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRecord)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusOffsetClip" /> class.
+            </summary>
+      <param name="source">The source.</param>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusOffsetClip.Dx">
+      <summary>
+            Gets or sets a 32-bit floating-point value that specifies the horizontal offset for the translation.
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusOffsetClip.Dy">
+      <summary>
+            Gets or sets a 32-bit floating-point value that specifies the vertical offset for the translation.
+            </summary>
+    </member>
+    <member name="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusPropertyRecordType">
+      <summary>
+            The Property Record Types specify properties of the playback device context.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusPropertyRecordType.#ctor(Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRecord)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusPropertyRecordType" /> class.
+            </summary>
+      <param name="source">The source.</param>
+    </member>
+    <member name="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusResetClip">
+      <summary>
+            The EmfPlusResetClip record resets the current clipping region for the world space to infinity.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusResetClip.#ctor(Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRecord)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusResetClip" /> class.
+            </summary>
+      <param name="source">The source.</param>
+    </member>
+    <member name="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusResetWorldTransform">
+      <summary>
+            The EmfPlusResetWorldTransform record resets the current world space transform to the identify matrix.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusResetWorldTransform.#ctor(Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRecord)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusResetWorldTransform" /> class.
+            </summary>
+      <param name="source">The source.</param>
+    </member>
+    <member name="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRestore">
+      <summary>
+            The EmfPlusRestore record restores the graphics state, identified by a specified index, from a stack of saved graphics states.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRestore.#ctor(Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRecord)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRestore" /> class.
+            </summary>
+      <param name="source">The source.</param>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRestore.StackIndex">
+      <summary>
+            Gets or sets a 32-bit unsigned integer that specifies the level associated with a
+            graphics state. The level value was assigned to the graphics state by a previous EmfPlusSave record (section 2.3.7.5).
+            </summary>
+      <value>
+            The index of the stack.
+            </value>
+    </member>
+    <member name="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRotateWorldTransform">
+      <summary>
+            The EmfPlusRotateWorldTransform record performs a rotation on the current world space transform.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRotateWorldTransform.#ctor(Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRecord)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRotateWorldTransform" /> class.
+            </summary>
+      <param name="source">The source.</param>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRotateWorldTransform.PostMultipliedMatrix">
+      <summary>
+            Gets a value indicating whether [post multiplied matrix].
+            If set, the transform matrix should be post-multiplied. If clear, it should be premultiplied.
+            </summary>
+      <value>
+        <c>true</c> if [post multiplied matrix]; otherwise, <c>false</c>.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRotateWorldTransform.Angle">
+      <summary>
+            Gets or sets a 32-bit floating-point value that specifies the angle of rotation in degrees.
+            The operation is performed by constructing a new transform matrix from the following
+            diagram:
+            ---------------------------------
+            |  sin(Angle) |  cos(Angle) | 0 |
+            |  cos(Angle) |  sin(Angle) | 0 |
+            ---------------------------------
+            Figure 2: Rotation Transform Matrix
+            The current world space transform is multiplied by this matrix, and the result becomes the
+            new current world space transform. The Flags field determines the order of multiplication.
+            </summary>
+      <value>
+            The angle.
+            </value>
+    </member>
+    <member name="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSave">
+      <summary>
+            The EmfPlusSave record saves the graphics state, identified by a specified index, on a stack of saved graphics states.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSave.#ctor(Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRecord)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSave" /> class.
+            </summary>
+      <param name="source">The source.</param>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSave.StackIndex">
+      <summary>
+            Gets or sets a 32-bit unsigned integer that specifies a level to associate with the
+            graphics state. The level value can be used by a subsequent EmfPlusRestore record (section
+            2.3.7.4) operation to retrieve the graphics state.
+            </summary>
+      <value>
+            The index of the stack.
+            </value>
+    </member>
+    <member name="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusScaleWorldTransform">
+      <summary>
+            The EmfPlusScaleWorldTransform record performs a scaling on the current world space transform.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusScaleWorldTransform.#ctor(Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRecord)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusScaleWorldTransform" /> class.
+            </summary>
+      <param name="source">The source.</param>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusScaleWorldTransform.PostMultipliedMatrix">
+      <summary>
+            Gets a value indicating whether [post multiplied matrix].
+            If set, the transform matrix should be post-multipled. If clear, it should be premultiplied.
+            </summary>
+      <value>
+        <c>true</c> if [post multiplied matrix]; otherwise, <c>false</c>.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusScaleWorldTransform.Sx">
+      <summary>
+            Gets or sets a 32-bit floating-point value that defines the horizontal scale factor. The scaling
+            is performed by constructing a new transform matrix from the Sx and Sy field values, as
+            shown in the following table.
+            -----------------
+            |  Sx |   0 | 0 |
+            |   0 |  Sx | 0 |
+            -----------------
+            Figure 3: Scale Transform Matrix
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusScaleWorldTransform.Sy">
+      <summary>
+            Gets or sets a 32-bit floating-point value that defines the vertical scale factor.
+            </summary>
+    </member>
+    <member name="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSerializableObject">
+      <summary>
+            The EmfPlusSerializableObject record defines an image effects parameter block that has been
+            serialized into a data buffer.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSerializableObject.#ctor(Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRecord)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSerializableObject" /> class.
+            </summary>
+      <param name="source">The source.</param>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSerializableObject.Flags">
+      <summary>
+            Gets or sets a 16-bit unsigned integer that is not used. This field SHOULD be set to zero
+            and MUST be ignored upon receipt.
+            </summary>
+      <value>
+            The flags.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSerializableObject.ObjectGuid">
+      <summary>
+            Gets or sets the GUID packet representation value ([MS-DTYP] section 2.3.4.2)
+            for the image effect. This MUST correspond to one of the ImageEffects identifiers (section 2.1.3.1).
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSerializableObject.BufferSize">
+      <summary>
+            Gets or sets a 32-bit unsigned integer that specifies the size in bytes of the 32-bitaligned Buffer field.
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSerializableObject.Buffer">
+      <summary>
+            Gets or sets an array of BufferSize bytes that contain the serialized image effects
+            parameter block that corresponds to the GUID in the ObjectGUID field. This MUST be one of
+            the Image Effects objects (section 2.2.3).
+            </summary>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSerializableObject.ImageEffect">
+      <summary>
+            Gets or sets the image effect.
+            </summary>
+      <value>
+            The image effect.
+            </value>
+    </member>
+    <member name="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetAntiAliasMode">
+      <summary>
+            The EmfPlusSetAntiAliasMode record specifies the anti-aliasing mode for text output.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetAntiAliasMode.#ctor(Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRecord)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetAntiAliasMode" /> class.
+            </summary>
+      <param name="source">The source.</param>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetAntiAliasMode.SmoothingMode">
+      <summary>
+            Gets or sets the smoothing mode.
+            (7 bits): The smoothing mode value, from the SmoothingMode enumeration (section 2.1.1.28)
+            </summary>
+      <value>
+            The smoothing mode.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetAntiAliasMode.AntiAliasing">
+      <summary>
+            Gets or sets a value indicating whether [anti aliasing].
+            If set, anti-aliasing SHOULD be performed.
+            If clear, anti-aliasing SHOULD NOT be performed.
+            </summary>
+      <value>
+        <c>true</c> if [anti aliasing]; otherwise, <c>false</c>.
+            </value>
+    </member>
+    <member name="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetClipPath">
+      <summary>
+            The EmfPlusSetClipPath record combines the current clipping region with a graphics path.
+            The new current clipping region is set to the result of the CombineMode operation.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetClipPath.#ctor(Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRecord)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetClipPath" /> class.
+            </summary>
+      <param name="source">The source.</param>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetClipPath.Cm">
+      <summary>
+            Gets or sets the CM (4 bits): Specifies the logical operation for combining two regions. See the
+            CombineMode enumeration (section 2.1.1.4) for the meanings of the values.
+            </summary>
+      <value>
+            The cm.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetClipPath.ObjectId">
+      <summary>
+            Gets or sets the index of an EmfPlusPath object (section 2.2.1.6) in the EMF+
+            Object Table. The value MUST be zero to 63, inclusive.
+            </summary>
+      <value>
+            The object identifier.
+            </value>
+    </member>
+    <member name="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetClipRect">
+      <summary>
+            The EmfPlusSetClipRect record combines the current clipping region with a rectangle.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetClipRect.#ctor(Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRecord)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetClipRect" /> class.
+            </summary>
+      <param name="source">The source.</param>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetClipRect.Cm">
+      <summary>
+            Gets or sets the CM (4 bits): Specifies the logical operation for combining two regions. See the
+            CombineMode enumeration (section 2.1.1.4) for the meanings of the values.
+            </summary>
+      <value>
+            The cm.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetClipRect.ClipRect">
+      <summary>
+            Gets or sets an EmfPlusRectF object (section 2.2.2.39) that defines the rectangle to
+            use in the CombineMode operation.
+            </summary>
+    </member>
+    <member name="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetClipRegion">
+      <summary>
+            The EmfPlusSetClipRegion record combines the current clipping region with another graphics region.
+            The new current clipping region is set to the result of performing the CombineMode operation on
+            the previous current clipping region and the specified EmfPlusRegion object.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetClipRegion.#ctor(Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRecord)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetClipRegion" /> class.
+            </summary>
+      <param name="source">The source.</param>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetClipRegion.Cm">
+      <summary>
+            Gets or sets the CM (4 bits): Specifies the logical operation for combining two regions. See the
+            CombineMode enumeration (section 2.1.1.4) for the meanings of the values.
+            </summary>
+      <value>
+            The cm.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetClipRegion.ObjectId">
+      <summary>
+            Gets or sets the index of an EmfPlusRegion object (section 2.2.1.8) in the EMF+
+            Object Table.The value MUST be zero to 63, inclusive.
+            </summary>
+      <value>
+            The object identifier.
+            </value>
+    </member>
+    <member name="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetCompositingMode">
+      <summary>
+            The EmfPlusSetCompositingMode record specifies how source colors are combined with background colors.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetCompositingMode.#ctor(Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRecord)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetCompositingMode" /> class.
+            </summary>
+      <param name="source">The source.</param>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetCompositingMode.CompositingMode">
+      <summary>
+            Gets or sets the compositing mode value, from the CompositingMode
+            enumeration (section 2.1.1.5). Compositing can be expressed as the state of alpha
+            blending, which can either be on or off.
+            </summary>
+      <value>
+            The compositing mode.
+            </value>
+    </member>
+    <member name="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetCompositingQuality">
+      <summary>
+            The EmfPlusSetCompositingQuality record specifies the desired level of quality for creating
+            composite images from multiple objects.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetCompositingQuality.#ctor(Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRecord)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetCompositingQuality" /> class.
+            </summary>
+      <param name="source">The source.</param>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetCompositingQuality.CompositingQuality">
+      <summary>
+            Gets or sets the compositing quality.
+            </summary>
+      <value>
+            The compositing quality.
+            </value>
+    </member>
+    <member name="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetInterpolationMode">
+      <summary>
+            The EmfPlusSetInterpolationMode record specifies how image scaling, including stretching and shrinking, is performed.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetInterpolationMode.#ctor(Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRecord)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetInterpolationMode" /> class.
+            </summary>
+      <param name="source">The source.</param>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetInterpolationMode.InterpolationMode">
+      <summary>
+            Gets or sets the interpolation mode value, from the InterpolationMode enumeration (section 2.1.1.16).
+            </summary>
+      <value>
+            The interpolation mode.
+            </value>
+    </member>
+    <member name="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetPageTransform">
+      <summary>
+            The EmfPlusSetPageTransform record specifies scaling factors and units for converting page space
+            coordinates to device space coordinates.
+            </summary>
+    </member>
+    <member name="M:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetPageTransform.#ctor(Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusRecord)">
+      <summary>
+            Initializes a new instance of the <see cref="T:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetPageTransform" /> class.
+            </summary>
+      <param name="source">The source.</param>
+    </member>
+    <member name="P:Aspose.Imaging.FileFormats.Emf.EmfPlus.Records.EmfPlusSetPageTransform.PageUnit">
+      <summary>
+            Gets the unit of measure for page space coordinates, from the UnitType
+            enumeration (section 2.1.1.33). This value SHOULD NOT be UnitTypeDisplay or UnitTypeWorld.
+            </summary>
+      <value>
+            The page unit.
+            </value>
+    </member>
+    <member name="P:Aspose.Imaging.
